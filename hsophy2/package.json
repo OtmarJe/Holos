@@ -1,0 +1,34 @@
+{
+  "name": "hsophy2",
+  "version": "1.0.0",
+  "description": "website",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "test",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OtmarJe/Holos.git"
+  },
+  "keywords": [
+    "holosophy",
+    "thinking",
+    "sustainable"
+  ],
+  "author": "Otmar Jenner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OtmarJe/Holos/issues"
+  },
+  "homepage": "https://github.com/OtmarJe/Holos#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.5.1",
+    "popper": "^1.0.1"
+  }
+}
