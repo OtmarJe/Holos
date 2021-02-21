@@ -1,0 +1,311 @@
+/* container Animations */
+  
+  .containerAnimate {
+    display: table-cell;
+    width: 100%;
+    height: 9rem;
+    font-family: Chivo;
+    font-size: .9rem;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background: white;
+    position: relative;
+    animation-name: animateContainer;
+    animation-duration: 23s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  @keyframes animateContainer {
+    0%   {left: 0%; background: white; width: 100%;}
+    1%   {left: 0%; background: #f2f2f2; width: 100%;}
+    2%   {left: 0%; background: #e6e6e6; width: 100%;}  
+    3%   {left: 0%; background: #e6e6e6; width: 100%;}
+    4%   {left: 0%; background: #d9d9d9; width: 100%;}
+    5%   {left: 0%; background: #cccccc; width: 100%;}
+    6%   {left: 0%; background: #bfbfbf; width: 100%;}
+    7%   {left: 0%; background: #A0AA7A; width: 100%;}
+    8%   {left: 0%; background: #A0AA7A; width: 100%;}
+    9%   {left: 0%; background: #999999; width: 100%;}   
+    10%  {left: 0%; background: #999999; width: 100%;}
+    11%  {left: 0%; background: #8c8c8c; width: 100%;}
+    12%  {left: 0%; background: #8c8c8c; width: 100%;}
+    13%  {left: 0%; background: #8c8c8c; width: 100%;}
+    15%  {left: 0%; background: #808080; width: 100%;}
+    17%  {left: 0%; background: #808080; width: 100%;}
+    20%  {left: 0%; background: #737373; width: 100%;}
+    22%  {left: 0%; background: #737373; width: 100%;}
+    25%  {left: 0%; background: #666666; width: 100%;}
+    27%  {left: 0%; background: #666666; width: 100%;}
+    30%  {left: 0%; background: #595959; width: 100%;}
+    33%  {left: 0%; background: #595959; width: 100%;}
+    35%  {left: 0%; background: #4d4d4d; width: 100%;}
+    37%  {left: 0%; background: #404040; width: 100%;}
+    40%  {left: 0%; background: #404040; width: 100%;}
+    42%  {left: 0%; background: #660022; width: 100%;}
+    45%  {left: 0%; background: #602020; width: 100%;}
+    47%  {left: 0%; background: #602020; width: 100%;}
+    50%  {left: 0%; background: #802000; width: 100%;}
+    53%  {left: 0%; background: #992600; width: 100%;}
+    55%  {left: 0%; background: #992600; width: 100%;}
+    57%  {left: 0%; background: #99004d; width: 100%;}
+    60%  {left: 0%; background: #800040; width: 100%;}
+    63%  {left: 0%; background: #73264d; width: 100%;}
+    65%  {left: 0%; background: #993d00; width: 100%;}
+    67%  {left: 0%; background: #803300; width: 100%;}
+    70%  {left: 0%; background: #dc0909; width: 100%;}
+    73%  {left: 0%; background: #f62323; width: 100%;}
+    75%  {left: 0%; background: #F96565; width: 100%;}
+    77%  {left: 0%; background: #999999; width: 100%;}
+    80%  {left: 0%; background: #a6a6a6; width: 100%;}
+    82%  {left: 0%; background: #A0AA7A; width: 100%;}
+    85%  {left: 0%; background: #A0AA7A; width: 100%;}
+    87%  {left: 0%; background: #cccccc; width: 100%;}
+    90%  {left: 0%; background: #d9d9d9; width: 100%;}
+    92%  {left: 0%; background: #e6e6e6; width: 100%;}
+    95%  {left: 0%; background: #f2f2f2; width: 100%;}
+    97%  {left: 0%; background: #ffffff; width: 100%;}
+    100% {left: 0%; background: white; width: 100%;}
+  }
+  
+  
+  .containerAnimate1 {
+    display: flex;
+    width: auto;
+    height: 5rem;
+    margin-bottom: 0;
+    font-family: Overpass;
+    font-weight: bold;
+    font-size: .9rem;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    animation-name: animateKontaner;
+    animation-duration: 53s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  @keyframes animateKontaner {
+    0%   {left: -3%; background: white; width: 104%;}
+    3%   {left: -7%; background: linen; width: 108%;}
+    5%   {left: -5%; background: lightgrey; width: 106%;}
+    7%   {left: -4%; background: ivory; width: 105%;}  
+    10%  {left: -8%; background: blanchedalmond; width: 109%;}
+    15%  {left: -9%; background: lemonchiffon; width: 110%;}
+    20%  {left: -2%; background: #F96565; width: 108%;}
+    25%  {left: -3%; background: cyan; width: 104%;}
+    30%  {left: -4%; background: palegreen; width: 105%;}
+    35%  {left: -7%; background: greenyellow; width: 108%}
+    40%  {left: -6%; background: tomato; width: 105%;}
+    45%  {left: -5%; background: plum; width: 106%;}
+    50%  {left: -8%; background: orchid; width: 109%;}
+    55%  {left: -7%; background: pink; width: 108%;}
+    60%  {left: -3%; background: salmon; width: 104%;}
+    65%  {left: -2%; background: antiquewhite; width: 106%;}
+    70%  {left: -8%; background: lightgoldenrodyellow; width: 109%;}
+    75%  {left: -11%; background: yellow; width: 113%;}
+    80%  {left: -13%; background: yellow; width: 115%;}
+    85%  {left: -9%; background: lightyellow; width: 110%;}
+    90%  {left: -7%; background: mistyrose; width: 108%;}
+    95%  {left: -5%; background: oldlace; width: 106%;}
+    100% {left: -2%; background: seashell; width: 103%;}
+  }
+  
+  .containerAnimate2 {
+    display: flex;
+    width: auto;
+    height: 5rem;
+    margin-bottom: 0;
+    font-family: Overpass;
+    font-weight: bold;
+    font-size: .9rem;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    animation-name: animatedBox;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  @keyframes animatedBox {
+    0%   {left: -1%; background: pink; width: 102%;}
+    3%   {left: -1%; background: orangered; width: 102%;}
+    5%   {left: -1%; background: olive; width: 102%;}
+    7%   {left: -1%; background: orchid; width: 102%;}  
+    10%  {left: -2%; background: palevioletred; width: 104%;}
+    15%  {left: -1%; background: lightcoral; width: 102%;}
+    20%  {left: -1%; background: lightpink; width: 103%;}
+    25%  {left: -1%; background: green; width: 104%;}
+    30%  {left: -2%; background: whitesmoke; width: 105%;}
+    35%  {left: -1%; background: wheat; width: 106%;}
+    40%  {left: -1%; background: snow; width: 105%;}
+    45%  {left: -1%; background: aliceblue; width: 104%;}
+    50%  {left: -3%; background: red; width: 105%;}
+    55%  {left: -2%; background: peachpuff; width: 104%;}
+    60%  {left: -1%; background: lightgoldenrodyellow; width: 103%;}
+    65%  {left: -1%; background: aliceblue; width: 103%;}
+    70%  {left: -2%; background: #F96565; width: 103%;}
+    75%  {left: -3%; background: aliceblue; width: 104%;}
+    80%  {left: -4%; background: aqua; width: 105%;}
+    85%  {left: -3%; background: orange; width: 104%;}
+    90%  {left: -2%; background: lightpink; width: 103%;}
+    95%  {left: -1%; background: seashell; width: 102%;}
+    100% {left: -1%; background: white; width: 102%;}
+  }
+  
+  .containerAnimate3 {
+    display: flex;
+    width: auto;
+    height: 5rem;
+    margin-bottom: 0;
+    font-family: Overpass;
+    font-weight: bold;
+    font-size: .9rem;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    animation-name: animatedMox;
+    animation-duration: 59s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  @keyframes animatedMox {
+    0%   {left: -3%; background: gold; width: 104%;}
+    3%   {left: -5%; background: khaki; width: 106%;}
+    5%   {left: -7%; background: silver; width: 108%;}
+    7%   {left: -8%; background: lightblue; width: 109%;}  
+    10%  {left: -9%; background: aqua; width: 111%;}
+    15%  {left: -10%; background: papayawhip; width: 112%;}
+    20%  {left: -9%; background: peachpuff; width: 111%;}
+    25%  {left: -8%; background: lightgrey; width: 109%;}
+    30%  {left: -5%; background: lightcoral; width: 106%;}
+    35%  {left: -1%; background: lightpink; width: 110%;}
+    40%  {left: -2%; background: indianred; width: 105%;}
+    45%  {left: -3%; background: cornsilk; width: 104%;}
+    50%  {left: -4%; background: white; width: 105%;}
+    55%  {left: -5%; background: salmon; width: 106%;}
+    60%  {left: -7%; background: lightcoral; width: 108%;}
+    65%  {left: -8%; background: orange; width: 110%;}
+    70%  {left: -9%; background: yellow; width: 111%;}
+    75%  {left: -7%; background: linen; width: 109%;}
+    80%  {left: -5%; background: hotpink; width: 106%;}
+    85%  {left: -4%; background: plum; width: 105%;}
+    90%  {left: -3%; background: #F96565; width: 104%;}
+    95%  {left: -2%; background: lightpink; width: 106%;}
+    100% {left: -1%; background: white; width: 110%;}
+  }
+  
+  .containerAnimate4 {
+    display: flex;
+    margin-bottom: 0px;
+    width: auto;
+    height: 5rem;
+    font-family: Overpass;
+    font-weight: bold;
+    font-size: .9rem;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    animation-name: animatedKox;
+    animation-duration: 57s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+  
+  }
+  
+  @keyframes animatedKox {
+    0%   {left: -5%; background: beige; width: 106%;}
+    3%   {left: -4%; background: peachpuff; width: 105%;}
+    5%   {left: -3%; background: pink; width: 104%;}
+    10%  {left: -2%; background: white; width: 103%;}  
+    15%  {left: -1%; background: blanchedalmond; width: 102%;}
+    20%  {left: -2%; background: ivory; width: 103%;}
+    25%  {left: -3%; background: linen; width: 104%;}
+    30%  {left: -4%; background: lightcoral; width: 105%;}
+    35%  {left: -5%; background: sandybrown; width: 106%;}
+    40%  {left: -6%; background: #F96565; width: 107%;}
+    50%  {left: -7%; background: silver; width: 108%;}
+    55%  {left: -8%; background: yellowgreen; width: 109%;}
+    58%  {left: -9%; background: orange; width: 110%;}
+    62%  {left: -10%; background: lightcoral; width: 111%;}
+    69%  {left: -9%; background: indianred; width: 110%;}
+    75%  {left: -7%; background: plum; width: 108%;}
+    78%  {left: -5%; background: lightpink; width: 106%;}
+    82%  {left: -3%; background: cornsilk; width: 104%;}
+    87%  {left: -1%; background: tomato; width: 110%;}
+    90%  {left: -2%; background: coral; width: 109%;}
+    93%  {left: -3%; background: fuchsia; width: 104%;}
+    95%  {left: -4%; background: lightgrey; width: 105%;}
+    100% {left: -5%; background: white; width: 106%;}
+  }
+  
+  /* Shadow Animation not in use*/
+  
+  
+  .shadow {
+    animation: text-shadow 23s infinite alternate;
+    padding-top: 1em;
+    padding-bottom: 2em;
+  }
+  
+  @keyframes text-shadow {
+    0% {text-shadow: 1px 1px 0px #ccc}
+    2% {text-shadow: 1.5px 1px 0.5px #ccc}
+    5% {text-shadow: 2px 2px 1px #ccc}
+    7% {text-shadow: 2.4px 2.4px 1.3px #333}
+    9% {text-shadow: 2.7px 2.7px 1.7px #333}
+    10% {text-shadow: 3px 3px 2px #333}
+    13% {text-shadow: 5px 4.5px 3px #333}
+    17% {text-shadow: 7px 8px 5px #333}
+    20% {text-shadow: 8px 10px 6px #999}
+    25% {text-shadow: 9.1px 10.5px 6px #999}
+    30% {text-shadow: 9.3px 11px 6px #999}
+    35% {text-shadow: 9.7px 12.5px 6px #999}
+    40% {text-shadow: 10px 13px 6px #ccc}
+    50% {text-shadow: 8px 11.5px 5px #ccc}  
+    60% {text-shadow: 6px 10px 4px #ccc}
+    70% {text-shadow: 4px 9px 3.5px #ccc}  
+    80% {text-shadow: 2px 8px 3px #ccc}
+    90% {text-shadow: 1.5px 6.5px 2px #eee}
+    100% {text-shadow: 1px 5px 1px #eee}
+  }
+
+  /* Start typewriter-Anima */
+  
+  .typewriter-h4 {
+    display: inline-block;
+    height: 3em;
+    text-align: right;
+    margin-left: 1.5%;
+    padding-right: 1.5%;
+    font-family: monospace;
+    overflow: hidden;
+    word-wrap: break-word;
+    white-space: nowrap;
+    animation: typing 9s steps(60) forwards;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes typing {
+    from {width: 0%;}
+    to {width: 100%;}
+  }
+  

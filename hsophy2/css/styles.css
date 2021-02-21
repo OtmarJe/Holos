@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+    font-size: 18px;
+  }
+  
+
+header {
+    position: sticky !important;
+    top: 0;
+    z-index: 10;
+  }
+
+body {
+    background-color: white;
+  }
+
+p {
+    color: black;
+    font-family: sans-serif;
+    font-size: 1.8rem;
+  }
+  
+main {
+    position: static;
+    display: cover;
+  }
+  
+main > div {
+    overflow: hidden;
+  }
+  
+footer {
+    position: sticky !important;
+    bottom: 0;
+    z-index: 5;
+  }
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .3s;
+  }
+  
+a:hover {
+    color: white;
+  }
+  
+  /* dropdown menu */
+/* Style The Dropdown Button */
+.dropbtn {
+    background-color: #B2B2B2;
+    font-family: sans-serif;
+    font-size: .9rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: .5rem;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: grid;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: none;
+    border-radius: 8px;
+    min-width: 2em;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+  }
+  
+  /* Links inside the dropdown */
+.dropdown-content a {
+    color: white;
+    font-size: .7rem;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    color: black;
+    background-color: lightgrey
+    border-radius: 10px;
+  }
+  
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #F96565;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #B2B2B2;
+  }
+  
+/* Jumbotron styles start */
+
+.jumbotron {
+  background: url("../images/53-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  justify-content: center;
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+  z-index: 0;
+}
+
+
+.jumbotron-special {
+  background: url("../images/52-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  justify-content: center;
+  margin-top: -1rem;
+  margin-bottom: -1rem;
+  z-index: 0;
+}
+
+.footer {
+    background: #B2B2B2;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    height: auto;
+    margin-top: 0rem;
+  }
+  
+.footer-allP {
+    background-color: #B2B2B2;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: .7em;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+.footer-allP:hoover {
+    color: red;
+    text-decoration: underline;
+  }
+
+  /* Grid */
+
+.grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-auto-flow: row;
+    max-width: 90%;
+    height: auto;
+    margin: 1rem;
+  }
+  
+.grid-item {
+    background: white;
+    border-style: inset;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    box-shadow: 0 0 9px rgba(0,0,0,0.04);
+    border-radius: 5px;
+    width: auto;
+    text-align: left;
+    padding: 25px;
+    margin: .5rem;
+  }
+  
+.grid-item > p {
+    display: flex;
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 140%;
+    color: #696969;
+    text-align: left;
+  }
+  
+  
