@@ -115,7 +115,7 @@ font-family: 'Overpass', sans-serif;
 
 .jumbotron {
   position: relative;
-  background: url("../images/RahmenPink-H-2-2.jpg") no-repeat center center;
+  background: url("../images/Rahmen-j-4-10.jpg") no-repeat center center;
   -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
   -o-background-size: 100% 100%;
@@ -189,7 +189,7 @@ font-family: 'Overpass', sans-serif;
   border:10px double #bbb;
   color:#aaa;
   text-decoration:none;
-  background:#F96565;
+  background:#F66556;
 }
 
 .circle1 h1 {
@@ -348,6 +348,7 @@ font-family: 'Overpass', sans-serif;
     grid-template-columns: 1fr 1fr 1fr;
     overflow: scroll;
     }
+
   }
 
 /* small dvices */
@@ -358,6 +359,7 @@ font-family: 'Overpass', sans-serif;
     grid-template-columns: 1fr 1fr;
     overflow: scroll;
     }
+
   }
 
 /* extra small dvices */
@@ -365,7 +367,7 @@ font-family: 'Overpass', sans-serif;
 @media (max-width: 767px) and (min-device-width: 500px) and (orientation: portrait) {
   .jumbotron {
     position: relative;
-    background: url("../images/RahmenPink-V-1.jpg") no-repeat center center;
+    background: url("../images/Rahmen-j-3-9.jpg") no-repeat center center;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
@@ -378,29 +380,28 @@ font-family: 'Overpass', sans-serif;
   .jumbotron-special {
  
     background: url("../images/holo-k-V-1.jpg") no-repeat center center;
-    -webkit-background-size: 100% 90%;
-    -moz-background-size: 100% 90%;
-    -o-background-size: 100% 90%;
-    background-size: 100% 90%;
+    -webkit-background-size: 90% 90%;
+    -moz-background-size: 90% 90%;
+    -o-background-size: 90% 90%;
+    background-size: 90% 90%;
     margin: 0rem;
     z-index: 2;
   }
   
-  
-
   .grid {
     display: grid;
     grid-template-columns: 1fr;
     overflow: scroll;
   }
-  }
+
+}
 
 /* extra extra small dvices */
 
 @media (max-width: 499px) and (min-device-width: 300px) and (orientation: portrait) {
   .jumbotron {
     position: relative;
-    background: url("../images/RahmenPink-V-1.jpg") no-repeat center center;
+    background: url("../images/Rahmen-j-3-9.jpg") no-repeat center center;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
@@ -426,4 +427,5 @@ font-family: 'Overpass', sans-serif;
     grid-template-columns: 1fr;
     overflow: scroll;
   }
+  
 }
