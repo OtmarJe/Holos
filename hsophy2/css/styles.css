@@ -25,9 +25,7 @@ main {
     display: cover;
   }
   
-main > div {
-    overflow: hidden;
-  }
+
   
 footer {
     position: sticky !important;
@@ -90,7 +88,7 @@ a:hover {
   /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
     color: black;
-    background-color: lightgrey
+    background-color: lightgrey;
     border-radius: 10px;
   }
   
@@ -108,27 +106,146 @@ a:hover {
 /* Jumbotron styles start */
 
 .jumbotron {
-  background: url("../images/53-2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  justify-content: center;
-  margin-top: -1rem;
-  margin-bottom: -1rem;
-  z-index: 0;
+  position: relative;
+  background: url("../images/Rah-k-H-1.jpg") no-repeat center center;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  z-index: 1;
 }
 
 
 .jumbotron-special {
-  background: url("../images/52-1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  justify-content: center;
-  margin-top: -1rem;
-  margin-bottom: -1rem;
-  z-index: 0;
+  background: url("../images/holo-h-k-1.jpg") no-repeat center center;
+  -webkit-background-size: 100% 90%;
+  -moz-background-size: 100% 90%;
+  -o-background-size: 100% 90%;
+  background-size: 100% 90%;
+  margin: 4rem;
+  z-index: 2;
 }
+
+
+
+.box1 {
+  background-size: cover;
+  background-position: center;
+  padding: 3rem 0;
+}
+
+/* page 1 hover circle menu */
+.container00 {
+  height: 25rem;
+  position: relative;
+  display: inline-flex;
+  visibility: hidden;
+  z-index: -1;
+}
+
+.container01 {
+  height: 20rem;
+  position: relative;
+  display: inline-flex;
+  visibility: hidden;
+  z-index: -1;
+}
+
+.banner0 {
+  display: flex;
+  justify-content: center;
+  min-height: 20vh;
+}
+
+.circle1 {
+  position: relative;
+  display:block;
+  width:200px;
+  height:200px;
+  border-radius:100px;
+  border:6px double #F96565;
+  -webkit-box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 1);
+   box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 1);
+  line-height:100px;
+  justify-content: center;
+  text-align: center;
+  text-decoration:none;
+  background:#A0AA7A;
+  margin: 2rem;
+  z-index: 6;
+}
+.circle1:hover {
+  border:10px double #bbb;
+  color:#aaa;
+  text-decoration:none;
+  background:#F96565;
+}
+
+.circle1 h1 {
+  text-transform: Uppercase;
+  font-family: sans-serif;
+  font-size: 2rem;
+  color: white;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+  text-align: center;
+  text-transform: capitalize;
+  text-shadow: -1.4px 1.4px 0 #000,
+                1.4px 1.4px 0 #000,
+                1.4px -1.4px 0 #000,
+               -1.4px -1.4px 0 #000;
+}
+
+.circle1 h5 {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  align-items: center;
+  text-transform: capitalize;
+  text-shadow: -1.4px 1.4px 0 #000,
+                1.4px 1.4px 0 #000,
+                1.4px -1.4px 0 #000,
+               -1.4px -1.4px 0 #000;
+}
+
+
+
+
+.footer {
+  background: #B2B2B2;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  height: auto;
+  margin-top: 0rem;
+}
+
+.footer-allP {
+  background-color: #B2B2B2;
+  width: 100%;
+  font-family: Chivo;
+  font-size: .7em;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer-allP:hoover {
+  color: red;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
 
 .footer {
     background: #B2B2B2;
@@ -191,5 +308,114 @@ a:hover {
     color: #696969;
     text-align: left;
   }
+
+
+/* Start of MEDIA Q's */
+
+@media (max-width: 800px) {
+  .flex-cards {
+  display: flex;
+  flex-flow: row wrap;
+  }
+  .columns {
+  display: flex;
+  flex-flow: row wrap; 
+  }
+  .card-white {
+    width: auto;
+  }
+}
+
+/* large devices */
+
+@media (min-width: 1200px) {
+
+}
+
+/* medium dvices */
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    overflow: scroll;
+    }
+  }
+
+/* small dvices */
+
+@media all and (min-width: 768px) and (max-width: 991px) and (orientation: landscape) {
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow: scroll;
+    }
+  }
+
+/* extra small dvices */
+
+@media (max-width: 767px) and (min-device-width: 500px) and (orientation: portrait) {
+  .jumbotron {
+    position: relative;
+    background: url("../images/Rah-k-V-2.jpg") no-repeat center center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    z-index: 1;
+  }
+
+  .jumbotron-special {
+ 
+    background: url("../images/holo-k-V-1.jpg") no-repeat center center;
+    -webkit-background-size: 100% 90%;
+    -moz-background-size: 100% 90%;
+    -o-background-size: 100% 90%;
+    background-size: 100% 90%;
+    margin: 4rem;
+    z-index: 2;
+  }
   
   
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow: scroll;
+  }
+  }
+
+/* extra extra small dvices */
+
+@media (max-width: 499px) and (min-device-width: 300px) {
+  .jumbotron {
+    position: relative;
+    background: url("../images/Rah-k-V-2.jpg") no-repeat center center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    z-index: 1;
+  }
+
+  .jumbotron-special {
+    position: relative;
+    background: url("../images/holo-k-V-1.jpg") no-repeat center center;
+    -webkit-background-size: 100% 90%;
+    -moz-background-size: 100% 90%;
+    -o-background-size: 100% 90%;
+    background-size: 100% 90%;
+    margin: 0rem;
+    z-index: 2;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow: scroll;
+  }
+}
