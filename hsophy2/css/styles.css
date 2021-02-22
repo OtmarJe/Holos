@@ -43,7 +43,15 @@ a {
 a:hover {
     color: white;
   }
-  
+
+/*
+font-family: 'Chivo', sans-serif;
+font-family: 'Do Hyeon', sans-serif;
+font-family: 'Gaegu', cursive;
+font-family: 'Gamja Flower', cursive;
+font-family: 'Gugi', cursive;
+font-family: 'Overpass', sans-serif;
+
   /* dropdown menu */
 /* Style The Dropdown Button */
 .dropbtn {
@@ -95,7 +103,7 @@ a:hover {
   /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
-    background-color: #F96565;
+    background-color: #83951C;
   }
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
@@ -107,7 +115,7 @@ a:hover {
 
 .jumbotron {
   position: relative;
-  background: url("../images/Rah-k-H-1.jpg") no-repeat center center;
+  background: url("../images/RahmenPink-H-2-2.jpg") no-repeat center center;
   -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
   -o-background-size: 100% 100%;
@@ -120,10 +128,10 @@ a:hover {
 
 .jumbotron-special {
   background: url("../images/holo-h-k-1.jpg") no-repeat center center;
-  -webkit-background-size: 100% 90%;
-  -moz-background-size: 100% 90%;
-  -o-background-size: 100% 90%;
-  background-size: 100% 90%;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
   margin: 4rem;
   z-index: 2;
 }
@@ -186,11 +194,11 @@ a:hover {
 
 .circle1 h1 {
   text-transform: Uppercase;
-  font-family: sans-serif;
-  font-size: 2rem;
+  font-family: 'Gaegu', cursive;
+  font-size: 2.5rem;
   color: white;
-  padding-top: 1.6rem;
-  padding-bottom: 1.6rem;
+  padding-top: .7rem;
+  padding-bottom: .9rem;
   text-align: center;
   text-transform: capitalize;
   text-shadow: -1.4px 1.4px 0 #000,
@@ -357,7 +365,7 @@ a:hover {
 @media (max-width: 767px) and (min-device-width: 500px) and (orientation: portrait) {
   .jumbotron {
     position: relative;
-    background: url("../images/Rah-k-V-2.jpg") no-repeat center center;
+    background: url("../images/RahmenPink-V-1.jpg") no-repeat center center;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
@@ -374,7 +382,7 @@ a:hover {
     -moz-background-size: 100% 90%;
     -o-background-size: 100% 90%;
     background-size: 100% 90%;
-    margin: 4rem;
+    margin: 0rem;
     z-index: 2;
   }
   
@@ -389,10 +397,10 @@ a:hover {
 
 /* extra extra small dvices */
 
-@media (max-width: 499px) and (min-device-width: 300px) {
+@media (max-width: 499px) and (min-device-width: 300px) and (orientation: portrait) {
   .jumbotron {
     position: relative;
-    background: url("../images/Rah-k-V-2.jpg") no-repeat center center;
+    background: url("../images/RahmenPink-V-1.jpg") no-repeat center center;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
@@ -405,10 +413,10 @@ a:hover {
   .jumbotron-special {
     position: relative;
     background: url("../images/holo-k-V-1.jpg") no-repeat center center;
-    -webkit-background-size: 100% 90%;
-    -moz-background-size: 100% 90%;
-    -o-background-size: 100% 90%;
-    background-size: 100% 90%;
+    -webkit-background-size: 90% 90%;
+    -moz-background-size: 90% 90%;
+    -o-background-size: 90% 90%;
+    background-size: 90% 90%;
     margin: 0rem;
     z-index: 2;
   }
