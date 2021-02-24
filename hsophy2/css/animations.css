@@ -95,29 +95,29 @@
   }
   
   @keyframes animateKontaner {
-    0%   {left: -3%; background: white; width: 114%;}
-    3%   {left: -7%; background: linen; width: 118%;}
-    5%   {left: -5%; background: lightgrey; width: 116%;}
-    7%   {left: -4%; background: ivory; width: 115%;}  
-    10%  {left: -8%; background: blanchedalmond; width: 119%;}
-    15%  {left: -9%; background: lemonchiffon; width: 120%;}
-    20%  {left: -2%; background: #F96565; width: 118%;}
-    25%  {left: -3%; background: cyan; width: 114%;}
-    30%  {left: -4%; background: palegreen; width: 115%;}
-    35%  {left: -7%; background: greenyellow; width: 118%}
-    40%  {left: -6%; background: tomato; width: 115%;}
-    45%  {left: -5%; background: plum; width: 116%;}
-    50%  {left: -8%; background: orchid; width: 119%;}
-    55%  {left: -7%; background: pink; width: 118%;}
-    60%  {left: -3%; background: salmon; width: 114%;}
-    65%  {left: -2%; background: antiquewhite; width: 116%;}
-    70%  {left: -8%; background: lightgoldenrodyellow; width: 119%;}
-    75%  {left: -11%; background: yellow; width: 123%;}
-    80%  {left: -13%; background: yellow; width: 125%;}
-    85%  {left: -9%; background: lightyellow; width: 120%;}
-    90%  {left: -7%; background: mistyrose; width: 118%;}
-    95%  {left: -5%; background: oldlace; width: 116%;}
-    100% {left: -2%; background: seashell; width: 113%;}
+    0%   {left: -3%; background: white; width: 104%;}
+    3%   {left: -7%; background: linen; width: 108%;}
+    5%   {left: -5%; background: lightgrey; width: 106%;}
+    7%   {left: -4%; background: ivory; width: 105%;}  
+    10%  {left: -8%; background: blanchedalmond; width: 109%;}
+    15%  {left: -9%; background: lemonchiffon; width: 110%;}
+    20%  {left: -2%; background: #F96565; width: 108%;}
+    25%  {left: -3%; background: cyan; width: 104%;}
+    30%  {left: -4%; background: palegreen; width: 105%;}
+    35%  {left: -7%; background: greenyellow; width: 108%}
+    40%  {left: -6%; background: tomato; width: 105%;}
+    45%  {left: -5%; background: plum; width: 106%;}
+    50%  {left: -8%; background: orchid; width: 109%;}
+    55%  {left: -7%; background: pink; width: 108%;}
+    60%  {left: -3%; background: salmon; width: 104%;}
+    65%  {left: -2%; background: antiquewhite; width: 106%;}
+    70%  {left: -8%; background: lightgoldenrodyellow; width: 109%;}
+    75%  {left: -11%; background: yellow; width: 113%;}
+    80%  {left: -13%; background: yellow; width: 115%;}
+    85%  {left: -9%; background: lightyellow; width: 110%;}
+    90%  {left: -7%; background: mistyrose; width: 108%;}
+    95%  {left: -5%; background: oldlace; width: 106%;}
+    100% {left: -2%; background: seashell; width: 103%;}
   }
   
   .containerAnimate2 {
@@ -142,29 +142,29 @@
   }
   
   @keyframes animatedBox {
-    0%   {left: -1%; background: pink; width: 112%;}
-    3%   {left: -1%; background: orangered; width: 112%;}
-    5%   {left: -1%; background: olive; width: 112%;}
-    7%   {left: -1%; background: orchid; width: 112%;}  
-    10%  {left: -2%; background: palevioletred; width: 114%;}
-    15%  {left: -1%; background: lightcoral; width: 112%;}
-    20%  {left: -1%; background: lightpink; width: 113%;}
-    25%  {left: -1%; background: green; width: 114%;}
-    30%  {left: -2%; background: whitesmoke; width: 115%;}
-    35%  {left: -1%; background: wheat; width: 116%;}
-    40%  {left: -1%; background: snow; width: 115%;}
-    45%  {left: -1%; background: aliceblue; width: 114%;}
-    50%  {left: -3%; background: red; width: 115%;}
-    55%  {left: -2%; background: peachpuff; width: 114%;}
-    60%  {left: -1%; background: lightgoldenrodyellow; width: 113%;}
-    65%  {left: -1%; background: aliceblue; width: 113%;}
-    70%  {left: -2%; background: #F96565; width: 113%;}
-    75%  {left: -3%; background: aliceblue; width: 114%;}
-    80%  {left: -4%; background: aqua; width: 115%;}
-    85%  {left: -3%; background: orange; width: 114%;}
-    90%  {left: -2%; background: lightpink; width: 113%;}
-    95%  {left: -1%; background: seashell; width: 112%;}
-    100% {left: -1%; background: white; width: 112%;}
+    0%   {left: -1%; background: pink; width: 102%;}
+    3%   {left: -1%; background: orangered; width: 102%;}
+    5%   {left: -1%; background: olive; width: 102%;}
+    7%   {left: -1%; background: orchid; width: 102%;}  
+    10%  {left: -2%; background: palevioletred; width: 104%;}
+    15%  {left: -1%; background: lightcoral; width: 102%;}
+    20%  {left: -1%; background: lightpink; width: 103%;}
+    25%  {left: -1%; background: green; width: 104%;}
+    30%  {left: -2%; background: whitesmoke; width: 105%;}
+    35%  {left: -1%; background: wheat; width: 106%;}
+    40%  {left: -1%; background: snow; width: 105%;}
+    45%  {left: -1%; background: aliceblue; width: 104%;}
+    50%  {left: -3%; background: red; width: 105%;}
+    55%  {left: -2%; background: peachpuff; width: 104%;}
+    60%  {left: -1%; background: lightgoldenrodyellow; width: 103%;}
+    65%  {left: -1%; background: aliceblue; width: 103%;}
+    70%  {left: -2%; background: #F96565; width: 103%;}
+    75%  {left: -3%; background: aliceblue; width: 104%;}
+    80%  {left: -4%; background: aqua; width: 105%;}
+    85%  {left: -3%; background: orange; width: 104%;}
+    90%  {left: -2%; background: lightpink; width: 103%;}
+    95%  {left: -1%; background: seashell; width: 102%;}
+    100% {left: -1%; background: white; width: 102%;}
   }
   
   .containerAnimate3 {
@@ -189,29 +189,29 @@
   }
   
   @keyframes animatedMox {
-    0%   {left: -3%; background: gold; width: 114%;}
-    3%   {left: -5%; background: khaki; width: 116%;}
-    5%   {left: -7%; background: silver; width: 118%;}
-    7%   {left: -8%; background: lightblue; width: 119%;}  
-    10%  {left: -9%; background: aqua; width: 121%;}
-    15%  {left: -10%; background: papayawhip; width: 122%;}
-    20%  {left: -9%; background: peachpuff; width: 121%;}
-    25%  {left: -8%; background: lightgrey; width: 119%;}
-    30%  {left: -5%; background: lightcoral; width: 116%;}
-    35%  {left: -1%; background: lightpink; width: 120%;}
-    40%  {left: -2%; background: indianred; width: 115%;}
-    45%  {left: -3%; background: cornsilk; width: 114%;}
-    50%  {left: -4%; background: white; width: 115%;}
-    55%  {left: -5%; background: salmon; width: 116%;}
-    60%  {left: -7%; background: lightcoral; width: 118%;}
-    65%  {left: -8%; background: orange; width: 120%;}
-    70%  {left: -9%; background: yellow; width: 121%;}
-    75%  {left: -7%; background: linen; width: 119%;}
-    80%  {left: -5%; background: hotpink; width: 116%;}
-    85%  {left: -4%; background: plum; width: 115%;}
-    90%  {left: -3%; background: #F96565; width: 114%;}
-    95%  {left: -2%; background: lightpink; width: 116%;}
-    100% {left: -1%; background: white; width: 120%;}
+    0%   {left: -3%; background: gold; width: 104%;}
+    3%   {left: -5%; background: khaki; width: 106%;}
+    5%   {left: -7%; background: silver; width: 108%;}
+    7%   {left: -8%; background: lightblue; width: 109%;}  
+    10%  {left: -9%; background: aqua; width: 111%;}
+    15%  {left: -10%; background: papayawhip; width: 112%;}
+    20%  {left: -9%; background: peachpuff; width: 111%;}
+    25%  {left: -8%; background: lightgrey; width: 109%;}
+    30%  {left: -5%; background: lightcoral; width: 106%;}
+    35%  {left: -1%; background: lightpink; width: 110%;}
+    40%  {left: -2%; background: indianred; width: 105%;}
+    45%  {left: -3%; background: cornsilk; width: 104%;}
+    50%  {left: -4%; background: white; width: 105%;}
+    55%  {left: -5%; background: salmon; width: 106%;}
+    60%  {left: -7%; background: lightcoral; width: 108%;}
+    65%  {left: -8%; background: orange; width: 110%;}
+    70%  {left: -9%; background: yellow; width: 111%;}
+    75%  {left: -7%; background: linen; width: 109%;}
+    80%  {left: -5%; background: hotpink; width: 106%;}
+    85%  {left: -4%; background: plum; width: 105%;}
+    90%  {left: -3%; background: #F96565; width: 104%;}
+    95%  {left: -2%; background: lightpink; width: 106%;}
+    100% {left: -1%; background: white; width: 103%;}
   }
   
   .containerAnimate4 {
@@ -219,7 +219,7 @@
     width: auto;
     height: 5rem;
     margin-top: 0;
-    margin-bottom: 0px;
+    margin-bottom: 0;
     font-family: 'Chivo';
     font-weight: bold;
     font-size: .9rem;
@@ -236,29 +236,29 @@
   }
   
   @keyframes animatedKox {
-    0%   {left: -5%; background: beige; width: 116%;}
-    3%   {left: -4%; background: peachpuff; width: 115%;}
-    5%   {left: -3%; background: pink; width: 114%;}
-    10%  {left: -2%; background: white; width: 113%;}  
-    15%  {left: -1%; background: blanchedalmond; width: 112%;}
-    20%  {left: -2%; background: ivory; width: 113%;}
-    25%  {left: -3%; background: linen; width: 114%;}
-    30%  {left: -4%; background: lightcoral; width: 115%;}
-    35%  {left: -5%; background: sandybrown; width: 116%;}
-    40%  {left: -6%; background: #F96565; width: 117%;}
-    50%  {left: -7%; background: silver; width: 118%;}
-    55%  {left: -8%; background: yellowgreen; width: 119%;}
-    58%  {left: -9%; background: orange; width: 120%;}
-    62%  {left: -10%; background: lightcoral; width: 121%;}
-    69%  {left: -9%; background: indianred; width: 120%;}
-    75%  {left: -7%; background: plum; width: 118%;}
-    78%  {left: -5%; background: lightpink; width: 116%;}
-    82%  {left: -3%; background: cornsilk; width: 114%;}
-    87%  {left: -1%; background: tomato; width: 120%;}
-    90%  {left: -2%; background: coral; width: 119%;}
-    93%  {left: -3%; background: fuchsia; width: 114%;}
-    95%  {left: -4%; background: lightgrey; width: 115%;}
-    100% {left: -5%; background: white; width: 116%;}
+    0%   {left: -5%; background: beige; width: 106%;}
+    3%   {left: -4%; background: peachpuff; width: 105%;}
+    5%   {left: -3%; background: pink; width: 104%;}
+    10%  {left: -2%; background: white; width: 103%;}  
+    15%  {left: -1%; background: blanchedalmond; width: 102%;}
+    20%  {left: -2%; background: ivory; width: 103%;}
+    25%  {left: -3%; background: linen; width: 104%;}
+    30%  {left: -4%; background: lightcoral; width: 105%;}
+    35%  {left: -5%; background: sandybrown; width: 106%;}
+    40%  {left: -6%; background: #F96565; width: 107%;}
+    50%  {left: -7%; background: silver; width: 108%;}
+    55%  {left: -8%; background: yellowgreen; width: 109%;}
+    58%  {left: -9%; background: orange; width: 110%;}
+    62%  {left: -10%; background: lightcoral; width: 111%;}
+    69%  {left: -9%; background: indianred; width: 110%;}
+    75%  {left: -7%; background: plum; width: 108%;}
+    78%  {left: -5%; background: lightpink; width: 106%;}
+    82%  {left: -3%; background: cornsilk; width: 104%;}
+    87%  {left: -1%; background: tomato; width: 110%;}
+    90%  {left: -2%; background: coral; width: 109%;}
+    93%  {left: -3%; background: fuchsia; width: 104%;}
+    95%  {left: -4%; background: lightgrey; width: 105%;}
+    100% {left: -5%; background: white; width: 106%;}
   }
   
   /* Shadow Animation not in use*/
