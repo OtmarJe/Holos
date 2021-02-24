@@ -19,7 +19,7 @@ body {
 
 h2 {
   color: #3d3d3d;
-  font-family: 'Do Hyeon', Verdana, sans-serif;
+  font-family: verdana, sans-serif;
   font-weight: bold;
   font-size: 2rem;
   opacity: .7;
@@ -44,8 +44,9 @@ h4 {
 
 p {
     color: #404042;
-    font-family: 'Do Hyeon', Verdana, sans-serif;
-    font-size: 2rem;
+    font-family: Verdana, sans-serif;
+    font-size: 1rem;
+    margin: .8rem;
   }
   
 main {
@@ -65,7 +66,8 @@ footer {
 
 
 a {
-    font-family: sans-serif;
+    font-family: Verdana, sans-serif;
+    font-size: .6rem;
     color: white;
     font-weight: bold;
     text-decoration: none;
@@ -88,8 +90,8 @@ font-family: 'Overpass', sans-serif;
 /* Style The Dropdown Button */
 .dropbtn {
     background-color: #B2B2B2;
-    font-family: sans-serif;
-    font-size: .8rem;
+    font-family: Verdana, sans-serif;
+    font-size: .7rem;
     font-weight: bold;
     text-decoration: none;
     color: white;
@@ -119,7 +121,7 @@ font-family: 'Overpass', sans-serif;
   /* Links inside the dropdown */
 .dropdown-content a {
     color: white;
-    font-size: .7rem;
+    font-size: .6rem;
     padding: 8px 10px;
     text-decoration: none;
     display: block;
@@ -147,7 +149,6 @@ font-family: 'Overpass', sans-serif;
 
 .btn-holos {
   background-color: #A0AA7A;
-  color: white;
   width: 130px;
   padding: 20px;
   border-radius: 100px 8px;
@@ -161,11 +162,10 @@ font-family: 'Overpass', sans-serif;
 
 .btn-holos:hover {
   background-color: #F96565;
-  color: white;
 }
 
 .btn-impress {
-  font-family: sans-serif;
+  font-family: Verdana, sans-serif;
   font-size: .8rem;
   color: white;
 }
@@ -235,7 +235,19 @@ font-family: 'Overpass', sans-serif;
   z-index: 0;
 }
 
-.jumbotron-special-4 {
+.jumbotron-special-3 {
+  position: relative;
+  background: url("../images/hol-r-h1-5.jpg") no-repeat center center;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  z-index: 0;
+}
+
+.jumbotron-special-5 {
   position: relative;
   background: url("../images/krickel-r-14.jpg") no-repeat center center;
   -webkit-background-size: 100% 100%;
@@ -247,7 +259,7 @@ font-family: 'Overpass', sans-serif;
   z-index: 0;
 }
 
-.jumbotron-special-5 {
+.jumbotron-special-6 {
   position: relative;
   background: url("../images/K1-h-2.jpg") no-repeat center center;
   -webkit-background-size: 100% 100%;
@@ -272,7 +284,7 @@ font-family: 'Overpass', sans-serif;
   width: 100%;
   height: 100%;
   margin-bottom: 0em;
-  margin-top: 5rem;
+  margin-top: 0rem;
 }
 
 .box3 {
@@ -294,7 +306,7 @@ font-family: 'Overpass', sans-serif;
 }
 
 .box3 > div > p {
-  font-family: Chivo;
+  font-family: verdana, sans-serif;
   font-weight: bold;
   font-size: .9rem;
   color: #404042;
@@ -329,7 +341,7 @@ font-family: 'Overpass', sans-serif;
 }
 
 .box7 > h6 {
-  font-family: Overpass, Verdana, sans-serif;
+  font-family: Verdana, sans-serif;
   font-size: 1rem;
   font-weight: normal;
   line-height: 140%;
@@ -385,6 +397,16 @@ font-family: 'Overpass', sans-serif;
   margin-bottom: 3rem;
 }
 
+.banner2 > a > h1 {
+  font-family: 'Gamja Flower', cursive;
+  color: #3d3d3d;
+  font-weight: bold;
+  font-size: 3.5rem;
+  opacity: .7;
+  margin: .8rem;
+  text-align: center;
+}
+
 .banner3 {
   position: relative;
   display: flex;
@@ -425,7 +447,7 @@ font-family: 'Overpass', sans-serif;
 }
 
 .container0 > div > a {
-  font-family: sans-serif;
+  font-family: Verdana, sans-serif;
   font-weight: normal;
   color: white;
   font-size: .8rem;
@@ -467,13 +489,14 @@ font-family: 'Overpass', sans-serif;
 .container1 > div > h2 {
   font-weight: bold;
   color: #404042;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  text-align: center;
 
 }
 
 .container1 > div > p {
   font-weight: bold;
-  font-size: .9rem;
+  font-size: 1.2rem;
   color: #404042;
   text-align: center;
 }
@@ -669,7 +692,7 @@ font-family: 'Overpass', sans-serif;
 }
 
 .columns2-next2 {
-  font-family: Overpass;
+  font-family: Verdana, sans-serif;
   color: #404042;
   font-size: 1.3rem;
   background: white;
@@ -876,18 +899,6 @@ font-family: 'Overpass', sans-serif;
                -1.4px -1.4px 0 #000;
 }
 
-.circle1 h5 {
-  font-family: sans-serif;
-  font-size: 1.5rem;
-  color: white;
-  align-items: center;
-  text-transform: capitalize;
-  text-shadow: -1.4px 1.4px 0 #000,
-                1.4px 1.4px 0 #000,
-                1.4px -1.4px 0 #000,
-               -1.4px -1.4px 0 #000;
-}
-
 /* end hover circle menu */
 
 
@@ -905,8 +916,8 @@ font-family: 'Overpass', sans-serif;
 .footer-allP {
   background-color: #B2B2B2;
   width: 100%;
-  font-family: Chivo;
-  font-size: .7em;
+  font-family: Verdana, sans-serif;
+  font-size: .6em;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -1007,6 +1018,9 @@ font-family: 'Overpass', sans-serif;
       margin-top: 0em;
     }
     .container1 > h2 {
+      font-size: 1.3rem;
+    }
+    .container1 > div > p {
       font-size: 1.1rem;
     }
     .container2 {
@@ -1028,7 +1042,7 @@ font-family: 'Overpass', sans-serif;
     }
   
     .banner > h1 {
-      font-size: 6rem;;
+      font-size: 7rem;;
       padding: 30px 0;
     }
     .banner > h2 {
@@ -1037,8 +1051,13 @@ font-family: 'Overpass', sans-serif;
      .banner2 {
       height: 3.5rem;
     }
-    .banner2 > a > h2 {
-      font-size: 1.6rem;
+    .banner2 > a > h1 {
+      color: #3d3d3d;
+      font-weight: bold;
+      font-size: 2.8rem;
+      opacity: .7;
+      margin: .8rem;
+      text-align: center;
     }
     .grid {
     display: grid;
@@ -1110,19 +1129,21 @@ font-family: 'Overpass', sans-serif;
     margin-bottom: auto;
   }
   .container1 {
-    height: 5rem;
+    height: auto;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     margin-top: 0rem;
   }
   .container1 > div > h2 {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    text-align: center;
   }
   .container1 > div > p {
-    font-size: .85rem;
+    font-size: 1.1rem;
+    text-align: center;
   }
   .container1 > h4 {
-    font-family: Chivo, sans-serif;
+    font-family: Verdana, sans-serif;
     font-weight: bold;
     color: #696969;
     font-size: 1.1rem;
@@ -1212,19 +1233,20 @@ font-family: 'Overpass', sans-serif;
   .banner2 {
     height: 3rem;
   }
-  .banner2 > a > h2 {
-    font-size: 1.5rem;
+  .banner2 > a > h1 {
+    color: #3d3d3d;
+    font-weight: bold;
+    font-size: 2.6rem;
+    opacity: .7;
+    margin: .8rem;
+    text-align: center;
   }
   .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   overflow: scroll;
   }
-  .btn-holos {
-    width: 130px;
-    padding: 25px;
-    border-radius: 110px 15px;
-  }
+
 }
 
 /* extra small dvices */
@@ -1306,17 +1328,19 @@ font-family: 'Overpass', sans-serif;
     margin-bottom: auto;
   }
   .container1 {
-    height: 4rem;
-    margin-left: 1.2rem;
-    margin-right: 1.2rem;
+    height: auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
     margin-top: 0rem;
     margin-bottom: 2rem;
   }
   .container1 > div > h2 {
     font-size: 1.2rem;
+    text-align: left;
   }
   .container1 > div > p {
     font-size: 1rem;
+    text-align: left;
   }
   .container1 > h4 {
     font-family: sans-serif;
@@ -1418,19 +1442,21 @@ font-family: 'Overpass', sans-serif;
   .banner2 {
     height: 2rem;
   }
-  .banner2 > a > h2 {
-    font-size: 1.4rem;
+  .banner2 > a > h1 {
+    color: #3d3d3d;
+    font-weight: bold;
+    font-size: 2.4rem;
+    opacity: .7;
+    margin: .8rem;
+    text-align: center;
   }
+
   .grid {
     display: grid;
     grid-template-columns: 1fr;
     overflow: scroll;
   }
-  .btn-holos {
-    width: 120px;
-    padding: 20px;
-    border-radius: 90px 10px;
-  }
+
 }
 
 
@@ -1511,20 +1537,22 @@ font-family: 'Overpass', sans-serif;
     margin-bottom: auto;
   }
   .container1 {
-    height: 4rem;
-    margin-left: .7rem;
-    margin-right: .7rem;
+    height: auto;
+    margin-left: 1.7rem;
+    margin-right: 1.7rem;
     margin-top: 0rem;
     margin-bottom: 2rem;
   }
   .container1 > div > h2 {
     font-size: .8rem;
+    text-align: left;
   }
   .container1 > div > p {
     font-size: .8rem;
+    text-align: left;
   }
   .container1 > h4 {
-    font-family: Chivo, sans-serif;
+    font-family: Verdana, sans-serif;
     font-weight: bold;
     color: #696969;
     font-size: .8rem;
@@ -1624,17 +1652,20 @@ font-family: 'Overpass', sans-serif;
   .banner2 {
     height: 2rem;
   }
-  .banner2 > a > h2 {
-    font-size: 1.4rem;
+  .banner2 > a > h1 {
+    color: #3d3d3d;
+    font-weight: bold;
+    font-size: 2rem;
+    opacity: .7;
+    margin: .8rem;
+    text-align: center;
   }
+  
+
   .grid {
     display: grid;
     grid-template-columns: 1fr;
     overflow: scroll;
   }
-  .btn-holos {
-    width: 120px;
-    padding: 20px;
-    border-radius: 90px 10px;
-  }
+
 }
