@@ -865,7 +865,6 @@ font-family: 'Overpass', sans-serif;
 
 /* page 1 hover circle menu */
 .circle1 {
-
   display:block;
   width:200px;
   height:200px;
@@ -874,8 +873,14 @@ font-family: 'Overpass', sans-serif;
   -webkit-box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 1);
   -moz-box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 1);
    box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 1);
-  line-height:100px;
+  line-height: 170px;
   justify-content: center;
+  font-family: 'Gaegu', 'Chalkduster', cursive;
+  font-size: 2.5rem;
+  text-shadow: -1.4px 1.4px 0 #000,
+                1.4px 1.4px 0 #000,
+                1.4px -1.4px 0 #000,
+              -1.4px -1.4px 0 #000;
   text-align: center;
   text-decoration:none;
   background:#A0AA7A;
@@ -889,13 +894,13 @@ font-family: 'Overpass', sans-serif;
   background:#F66556;
 }
 
+/*
 .circle1 > h1 {
   text-transform: Uppercase;
   font-family: 'Gaegu', 'Chalkduster', cursive;
   font-size: 2.5rem;
   color: white;
-  padding-top: .7rem;
-  padding-bottom: .9rem;
+
   text-align: center;
   text-transform: capitalize;
   text-shadow: -1.4px 1.4px 0 #000,
