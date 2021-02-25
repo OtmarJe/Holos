@@ -665,6 +665,7 @@ a:hover {
 }
 
 .grid-item {
+  display: flex;
   background: white;
   border-style: inset;
   border-top: 1px solid black;
@@ -678,11 +679,10 @@ a:hover {
 }
 
 .grid-item > h6 {
-  display: flex;
-  font-family: Verdana, sans-serif;
+  font-family: 'Chivo',Verdana, sans-serif;
   font-size: .8rem;
   font-weight: bold;
-  line-height: 140%;
+  line-height: 120%;
   color: #696969;
   text-align: left;
 }
