@@ -12,7 +12,6 @@ header {
 
 body {
     font-family: "Chivo", verdana, sans-serif;
-    background-color: white;
     min-height: 100%;
   }
 
@@ -161,7 +160,7 @@ font-family: 'Overpass', sans-serif;
 }
 
 .btn-impress {
-  font-family: Verdana, sans-serif;
+  font-family: 'Chivo', Verdana, sans-serif;
   font-size: .8rem;
   color: white;
 }
@@ -387,9 +386,7 @@ font-family: 'Overpass', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 20vh;
-  padding-left: 4rem;
-  padding-right: 4rem;
+  height: auto;
   margin-top: 6rem;
   margin-bottom: 3rem;
 }
@@ -400,9 +397,10 @@ font-family: 'Overpass', sans-serif;
   font-weight: bold;
   font-size: 3.5rem;
   opacity: .9;
-  margin: .7rem;
   text-align: center;
-  padding: 0px 4px 0px 4px;
+  padding-top: 0rem;
+  padding-left: .7rem;
+  padding-right: .7rem;
   background-color: white;
   border-radius: 5px;
   border-top: 1px solid grey;
@@ -479,6 +477,9 @@ font-family: 'Overpass', sans-serif;
   border-style: inset;
   background-color: white;
   border-radius: 5px;
+  padding-top: .5rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
   border-top: 1px solid grey;
   border-left: 1px solid grey;
 }
@@ -593,6 +594,8 @@ font-family: 'Overpass', sans-serif;
   width: auto;
   text-align: center;
   padding: 24px;
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
 }
 
 .card-me > h3 {
@@ -620,6 +623,8 @@ font-family: 'Overpass', sans-serif;
   text-align: center;
   padding: 34px 26px 16px 26px;
   margin: 8px;
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
 }
 
 .card-white > img {
@@ -630,6 +635,7 @@ font-family: 'Overpass', sans-serif;
 }
 
 .card-white h3 {
+  color: #3d3d3d;;
   font-size: 1.1rem;
   margin: .8rem;
 }
@@ -707,6 +713,8 @@ font-family: 'Overpass', sans-serif;
   text-align: left;
   justify-content: initial;
   padding: .9rem;
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
 }
 
 .columns2-next2 > h3 {
@@ -724,7 +732,7 @@ font-family: 'Overpass', sans-serif;
 }
 
 .columns2-next3 {
-  font-family: Verdana, sans-serif;
+  font-family: 'Chivo', Verdana, sans-serif;
   color: #404042;
   font-size: 1.3rem;
   background: white;
@@ -801,7 +809,7 @@ font-family: 'Overpass', sans-serif;
   border-radius: 5px;
   width: auto;
   text-align: left;
-  padding: 25px;
+  padding: .5rem;
   margin: .5rem;
 }
 
@@ -867,15 +875,13 @@ font-family: 'Overpass', sans-serif;
 .circle1 {
   position: relative;
   display:block;
-  width:280px;
-  height:280px;
-  border-radius:140px;
+  width:210px;
+  height:210px;
+  border-radius:105px;
   border:6px double #F96565;
   -webkit-box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 1);
   -moz-box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 1);
    box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 1);
-  line-height:100px;
-  text-align:center;
   text-decoration:none;
   background:#A0AA7A;
   margin: 2rem;
@@ -889,24 +895,12 @@ font-family: 'Overpass', sans-serif;
 }
 
 .circle1 h1 {
-  text-transform: Uppercase;
-  font-family: Rubik, sans-serif;
-  font-size: 1.9rem;
-  color: white;
-  padding-top: 8px;
-  align-items: center;
-  text-transform: capitalize;
-  text-shadow: -1.4px 1.4px 0 #000,
-                1.4px 1.4px 0 #000,
-                1.4px -1.4px 0 #000,
-               -1.4px -1.4px 0 #000;
-}
-
-.circle1 h5 {
-  font-family: Rubik, sans-serif;
-  font-size: 1.5rem;
+  font-family: 'Rubik', sans-serif;
+  font-size: 1.6rem;
   color: white;
   align-items: center;
+  text-align: center;
+  line-height: 65px;
   text-transform: capitalize;
   text-shadow: -1.4px 1.4px 0 #000,
                 1.4px 1.4px 0 #000,
