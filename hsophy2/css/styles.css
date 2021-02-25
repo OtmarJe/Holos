@@ -85,13 +85,15 @@ a:hover {
   /* dropdown menu */
 
 .dropbtn {
+    width: 100%;
     background-color: #B2B2B2;
     font-family: 'Chivo', Verdana, sans-serif;
     font-size: .7rem;
     font-weight: bold;
     text-decoration: none;
     color: white;
-    padding: .4rem;
+    padding-bottom: .6rem;
+    padding-top: .6rem;
     border: none;
     cursor: pointer;
   }
@@ -189,10 +191,10 @@ a:hover {
 
 .jumbotron-special {
   background: url("../images/flow-h1-1.jpg") no-repeat center center;
-  -webkit-background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
-  -o-background-size: 100% 100%;
-  background-size: 100% 100%;
+  -webkit-background-size: 95% 100%;
+  -moz-background-size: 95% 100%;
+  -o-background-size: 95% 100%;
+  background-size: 95% 100%;
   margin: 4rem;
   z-index: 2;
 }
@@ -275,7 +277,7 @@ a:hover {
 /* End hover circle menu */
 
 .container00 {
-  height: 25rem;
+  height: 20rem;
   position: relative;
   display: inline-flex;
   visibility: hidden;
@@ -836,7 +838,7 @@ a:hover {
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
     .container00 {
-      height: 20rem;
+      height: 18rem;
       position: relative;
       display: inline-flex;
       z-index: -1;
@@ -1226,7 +1228,7 @@ a:hover {
     height: 3rem;
   }
   .container00 {
-    height: 15rem;
+    height: 13.5rem;
     position: relative;
     display: inline-flex;
     z-index: -1;
