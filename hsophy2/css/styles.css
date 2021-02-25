@@ -865,49 +865,80 @@ font-family: 'Overpass', sans-serif;
 
 /* page 1 hover circle menu */
 .circle1 {
+  position: relative;
   display:block;
-  width:200px;
-  height:200px;
-  border-radius:100px;
+  width:280px;
+  height:280px;
+  border-radius:140px;
   border:6px double #F96565;
   -webkit-box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 1);
   -moz-box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 1);
    box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 1);
-  line-height: 170px;
-  justify-content: center;
-  font-family: 'Gaegu', 'Chalkduster', cursive;
-  font-size: 2.5rem;
-  text-shadow: -1.4px 1.4px 0 #000,
-                1.4px 1.4px 0 #000,
-                1.4px -1.4px 0 #000,
-              -1.4px -1.4px 0 #000;
-  text-align: center;
+  line-height:100px;
+  text-align:center;
   text-decoration:none;
   background:#A0AA7A;
   margin: 2rem;
-  z-index: 7;
+  z-index: 6;
 }
 .circle1:hover {
   border:10px double #bbb;
   color:#aaa;
   text-decoration:none;
-  background:#F66556;
+  background:#F96565;
 }
 
-/*
-.circle1 > h1 {
+.circle1 h1 {
   text-transform: Uppercase;
-  font-family: 'Gaegu', 'Chalkduster', cursive;
-  font-size: 2.5rem;
+  font-family: Rubik, sans-serif;
+  font-size: 1.9rem;
   color: white;
-
-  text-align: center;
+  padding-top: 8px;
+  align-items: center;
   text-transform: capitalize;
   text-shadow: -1.4px 1.4px 0 #000,
                 1.4px 1.4px 0 #000,
                 1.4px -1.4px 0 #000,
                -1.4px -1.4px 0 #000;
 }
+
+.circle1 h5 {
+  font-family: Rubik, sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  align-items: center;
+  text-transform: capitalize;
+  text-shadow: -1.4px 1.4px 0 #000,
+                1.4px 1.4px 0 #000,
+                1.4px -1.4px 0 #000,
+               -1.4px -1.4px 0 #000;
+}
+
+#Hoops {
+  font-size: 131%;
+}
+
+#Oops {
+  font-size: 146%;
+  vertical-align: sub;
+  text-shadow: -1.2px 1.2px 0 #000,
+                1.2px 1.2px 0 #000,
+                1px -1px 0 #000,
+               -1.2px -1.2px 0 #000;
+}
+
+#Poos {
+  font-size: 115%;
+}
+
+#Noops {
+  font-size: 130%;
+}
+
+#Woops {
+  font-size: 125%;
+}
+
 
 /* end hover circle menu */
 
