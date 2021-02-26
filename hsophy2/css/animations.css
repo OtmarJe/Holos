@@ -292,24 +292,3 @@
     100% {text-shadow: 1px 5px 1px #eee}
   }
 
-  /* Start typewriter-Anima */
-  
-  .typewriter-h4 {
-    display: inline-block;
-    height: 3em;
-    text-align: right;
-    margin-left: 1.5%;
-    padding-right: 1.5%;
-    font-family: monospace;
-    overflow: hidden;
-    word-wrap: break-word;
-    white-space: nowrap;
-    animation: typing 9s steps(60) forwards;
-    animation-iteration-count: infinite;
-  }
-  
-  @keyframes typing {
-    from {width: 0%;}
-    to {width: 100%;}
-  }
-  
