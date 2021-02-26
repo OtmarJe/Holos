@@ -933,7 +933,7 @@ a:hover {
 
     .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     overflow: scroll;
     }
   
@@ -1180,7 +1180,7 @@ a:hover {
 
   .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     overflow: scroll;
   }
 
