@@ -1,6 +1,6 @@
 
 // WrapGrid Animation
-
+/*
 import { wrapGrid } from 'animate-css-grid';
  
 const grid = document.querySelector(".grid");
@@ -36,4 +36,5 @@ $('#trig').onClick( function (wrapGrid) {
   $('#holom').toggleClass('grid-tem-16 grid-item random');
 });​
 
+*/
 
