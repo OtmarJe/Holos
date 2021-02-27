@@ -674,11 +674,11 @@ a:hover {
 /* Grid */
 
 .grid {
-
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-auto-flow: row;
+  overflow: scroll;
   max-width: 90%;
   height: auto;
   margin: 1rem;
@@ -693,6 +693,7 @@ a:hover {
   box-shadow: 0 0 9px rgba(0,0,0,0.04);
   border-radius: 5px;
   width: auto;
+  height: auto;
   text-align: left;
   padding: .5rem;
   margin: .5rem;
@@ -932,9 +933,7 @@ a:hover {
     }
 
     .grid {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    overflow: scroll;
     }
   
   }
@@ -1179,9 +1178,7 @@ a:hover {
   }
 
   .grid {
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    overflow: scroll;
   }
 
 }
@@ -1452,9 +1449,7 @@ a:hover {
   }
 
   .grid {
-    display: grid;
     grid-template-columns: 1fr 1fr;
-    overflow: scroll;
   }
 
 }
@@ -1723,9 +1718,7 @@ a:hover {
   }
   
   .grid {
-    display: grid;
     grid-template-columns: 1fr;
-    overflow: scroll;
   }
 
 }
