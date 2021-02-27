@@ -333,7 +333,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   width: auto;
-  height: 8rem;
+  height: auto;
   opacity: .9;
 }
 
