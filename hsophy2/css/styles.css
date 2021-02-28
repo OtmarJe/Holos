@@ -15,38 +15,22 @@ body {
     min-height: 100%;
   }
 
-h2 {
+h2, h3, h4, h5, h6 {
   font-family: "Chivo", Verdana, sans-serif;
-  font-family: verdana, sans-serif;
   font-weight: bold;
-  font-size: 2rem;
-  margin: .8rem;
-  text-align: center;
+}
+
+h2 {
+  color: #3d3d3d;
 }
 
 h3 {
-  font-family: "Chivo", Verdana, sans-serif;
-  color: #3d3d3d;
-  font-size: 1.3rem;
-  font-weight: bold;
-  margin: .8rem;
-  text-align: center;
-}
-
-h4 {
-  font-family: "Chivo", Verdana, sans-serif;
-  font-size: 1.2rem;
-  text-align: center;
-}
-
-h6 {
-  font-family: 'Chivo', Verdana, sans-serif;
-  color: #3d3d3d;;
-  font-size: .8rem;
+  color: #404042;
 }
 
 p {
     font-family: 'Chivo', Verdana, sans-serif;
+    color: black;
     font-size: .8rem;
   }
   
@@ -81,7 +65,7 @@ a:hover {
 
 /* All Pages */
 
-  /* dropdown menu */
+/* dropdown menu */
 
 .dropbtn {
     width: 100%;
@@ -97,7 +81,7 @@ a:hover {
     cursor: pointer;
   }
   
-  /* The container <div> to position the dropdown content */
+/* The container <div> to position the dropdown content */
 .dropdown {
     position: relative;
     display: grid;
@@ -362,7 +346,7 @@ a:hover {
 
 }
 
-.container1 > div > p {
+.container1 > div > h3 {
   font-weight: bold;
   font-size: 1.2rem;
   color: #404042;
@@ -523,12 +507,13 @@ a:hover {
   border-radius: 4px;
 }
 
-.card-white h3 {
+.card-white > a > h3 {
   font-size: 1.1rem;
   margin: .8rem;
 }
 
-.card-white h6 {
+.card-white > p {
+  font-size: .9rem;
   margin: .8rem;
 }
 
@@ -610,14 +595,10 @@ a:hover {
 }
 
 .columns2-next2 {
-  font-family: 'Chivo', Verdana, sans-serif;
-  color: #404042;
-  font-size: 1.3rem;
   background: white;
   box-shadow: 0 0 16px rgba(0,0,0,0.1);
   border-radius: 4px;
   width: 100%;
-  text-align: left;
   justify-content: initial;
   padding: .9rem;
   border-top: 1px solid grey;
@@ -680,7 +661,6 @@ a:hover {
   overflow: scroll;
   max-width: 90%;
   height: auto;
-  margin: 1rem;
 }
 
 .grid-item {
@@ -698,12 +678,10 @@ a:hover {
   margin: .5rem;
 }
 
-.grid-item > h6 {
-  font-family: 'Chivo', Verdana, sans-serif;
-  font-size: .8rem;
-  font-weight: bold;
+.grid-item > p {
+  font-size: .9rem;
   line-height: 140%;
-  color: #696969;
+  color: black;
   text-align: left;
 }
 
@@ -814,6 +792,7 @@ a:hover {
 
 /* End Styles aboutme */
 
+
 /* Start of MEDIA Q's */
 
 @media (max-width: 800px) {
@@ -877,7 +856,7 @@ a:hover {
       font-size: 1.3rem;
     }
 
-    .container1 > div > p {
+    .container1 > div > h3 {
       font-size: 1.1rem;
     }
 
@@ -1066,7 +1045,7 @@ a:hover {
     text-align: center;
   }
 
-  .container1 > div > p {
+  .container1 > div > h3 {
     font-size: 1.1rem;
     text-align: center;
   }
@@ -1178,6 +1157,11 @@ a:hover {
 
   .grid {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .grid-item > p {
+    font-size: .8rem;
+    line-height: 135%;
   }
 
 }
@@ -1326,7 +1310,7 @@ a:hover {
     text-align: left;
   }
 
-  .container1 > div > p {
+  .container1 > div > h3 {
     font-size: 1rem;
     text-align: left;
   }
@@ -1395,6 +1379,34 @@ a:hover {
     flex-flow: row wrap;
   }
 
+  .flex-cards > div {
+    margin: 7px;
+  }
+  
+  .card-white {
+    width: 18rem;
+    text-align: center;
+    padding: 24px 16px 6px 16px;
+    margin: 4px;
+  }
+  
+  .card-white > img {
+    width: 12rem;
+    height: 12rem;
+  }
+  
+  .card-white > a > h3 {
+    font-size: .9rem;
+    margin: .5rem;
+  }
+  
+  .card-white > p {
+    font-size: .8rem;
+    margin: .5rem;
+  }
+  
+
+
   .card-me {
     width: 100%;
     padding: 20px;
@@ -1449,6 +1461,11 @@ a:hover {
 
   .grid {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-item > p {
+    font-size: .8rem;
+    line-height: 130%;
   }
 
 }
@@ -1597,7 +1614,7 @@ a:hover {
     text-align: left;
   }
 
-  .container1 > div > p {
+  .container1 > div > h3 {
     font-size: .8rem;
     text-align: left;
   }
@@ -1664,6 +1681,32 @@ a:hover {
     flex-flow: row wrap;
   }
 
+  .flex-cards > div {
+    margin: 5px;
+  }
+  
+  .card-white {
+    width: 18rem;
+    text-align: center;
+    padding: 24px 16px 6px 16px;
+    margin: 4px;
+  }
+  
+  .card-white > img {
+    width: 12rem;
+    height: 12rem;
+  }
+  
+  .card-white > a > h3 {
+    font-size: .9rem;
+    margin: .5rem;
+  }
+  
+  .card-white > p {
+    font-size: .8rem;
+    margin: .5rem;
+  }
+  
   .card-me {
     width: 100%;
     padding: 20px;
@@ -1718,6 +1761,11 @@ a:hover {
   
   .grid {
     grid-template-columns: 1fr;
+  }
+
+  .grid-item > p {
+    font-size: .8rem;
+    line-height: 130%;
   }
 
 }
