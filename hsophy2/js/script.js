@@ -1,21 +1,25 @@
-
-// WrapGrid Animation
 /*
-import { wrapGrid } from 'animate-css-grid';
+
+function changeGrid() {
+  var title = document.querySelector("#wrapGrid");
+
+  import { wrapGrid } from 'animate-css-grid';
  
-const grid = document.querySelector(".grid");
-const { unwrapGrid, forceGridAnimation } = wrapGrid(grid);
+  const grid = document.querySelector(".grid");
+  const { unwrapGrid, forceGridAnimation } = wrapGrid(grid);
 
-var element = document.getElementById("wrapGrid");
-element.addEventListener("animationstart", listener, false);
-element.addEventListener("animationend", listener, false);
-element.addEventListener("animationiteration", listener, false);
+  var element = document.getElementById("wrapGrid");
+  element.addEventListener("animationstart", listener, false);
+  element.addEventListener("animationend", listener, false);
+  element.addEventListener("animationiteration", listener, false);
 
-element.className = "grid";
+  element.className = "grid";
 
 
-var Animation = function (wrapGrid) {
-};
+  var Animation = function (wrapGrid) {
+  };
+}
+
 
 $('#trig').onClick( function (wrapGrid) {
   $('#soc').toggleClass('grid-tem-1 grid-item random');
@@ -37,4 +41,3 @@ $('#trig').onClick( function (wrapGrid) {
 });​
 
 */
-
