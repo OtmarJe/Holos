@@ -469,7 +469,7 @@ a:hover {
   z-index: 0;
 }
 
-/* box1 is used her as on page2 */
+/* box1 is used here as on page2 */
 
 /* banner2 is used here and will be on page4, page5, aboutme */
 
@@ -479,7 +479,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   height: auto;
-  width: auto;
+  max-width: auto;
   margin-top: 6rem;
   margin-bottom: 3rem;
 }
