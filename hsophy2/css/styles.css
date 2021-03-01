@@ -822,6 +822,13 @@ a:hover {
   border-radius: 4px;
 }
 
+#imgLogo {
+  float: right;
+  padding-right: .8rem;;
+  max-width: 60px;
+  max-height: 60px;
+}
+
 .box5 {
   position: relative;
   background-size: cover;
@@ -963,7 +970,14 @@ a:hover {
     .grid {
     grid-template-columns: 1fr 1fr 1fr;
     }
-  
+    
+    #imgLogo {
+      float: right;
+      padding-right: .8rem;;
+      max-width: 50px;
+      max-height: 50px;
+    }
+    
   }
   
 /* small dvices */
@@ -1214,6 +1228,13 @@ a:hover {
     line-height: 135%;
   }
 
+  #imgLogo {
+    float: right;
+    padding-right: .8rem;;
+    max-width: 50px;
+    max-height: 50px;
+  }
+  
 }
 
 /* extra small dvices */
@@ -1518,6 +1539,13 @@ a:hover {
     line-height: 130%;
   }
 
+  #imgLogo {
+    float: right;
+    padding-right: .8rem;;
+    max-width: 40px;
+    max-height: 40px;
+  }
+
 }
 
 
@@ -1817,5 +1845,13 @@ a:hover {
     font-size: .8rem;
     line-height: 130%;
   }
+
+  #imgLogo {
+    float: right;
+    padding-right: .8rem;;
+    max-width: 40px;
+    max-height: 40px;
+  }
+  
 
 }
