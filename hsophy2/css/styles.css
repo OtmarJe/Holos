@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-size: 18px;
+    font-size: 16px;
   }
   
 
@@ -31,7 +31,7 @@ h3 {
 p {
     font-family: 'Chivo', Verdana, sans-serif;
     color: black;
-    font-size: .8rem;
+    font-size: 1rem;
   }
   
 main {
@@ -52,7 +52,7 @@ footer {
 
 a {
     font-family: 'Chivo', Verdana, sans-serif;
-    font-size: .7rem;
+    font-size: .8rem;
     color: white;
     font-weight: bold;
     text-decoration: none;
@@ -102,7 +102,7 @@ a:hover {
   /* Links inside the dropdown */
 .dropdown-content a {
     color: white;
-    font-size: .6rem;
+    font-size: .7rem;
     padding: 8px 10px;
     text-decoration: none;
     display: block;
@@ -143,7 +143,7 @@ a:hover {
   background-color: #B2B2B2;
   width: 100%;
   font-family: 'Chivo', Verdana, sans-serif;
-  font-size: .6em;
+  font-size: .7em;
   color: white;
   text-align: center;
   text-decoration: none;
@@ -271,7 +271,7 @@ a:hover {
 
 .circle1 > h1 {
   font-family: 'Rubik', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   color: white;
   text-align: center;
   line-height: 42px;
@@ -323,10 +323,10 @@ a:hover {
 .jumbotron-special-2 {
   position: relative;
   background: url("../images/holo-b-h-3.jpg") no-repeat center center;
-  -webkit-background-size: 90% 90%;
-  -moz-background-size: 90% 90%;
-  -o-background-size: 90% 90%;
-  background-size: 90% 90%;
+  -webkit-background-size: 90% 85%;
+  -moz-background-size: 90% 85%;
+  -o-background-size: 90% 85%;
+  background-size: 90% 85%;
   margin: 0rem;
   z-index: 0;
 }
@@ -385,20 +385,20 @@ a:hover {
 .container1 > div > h4 {
   font-weight: bold;
   color: #404042;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .container1 > div > h2 {
   font-weight: bold;
   color: #696969;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   text-align: center;
 
 }
 
 .container1 > div > h3 {
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: #404042;
   text-align: center;
 }
@@ -414,7 +414,7 @@ a:hover {
 }
 
 .container2 > a {
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 /* my move on btn */
@@ -488,7 +488,7 @@ a:hover {
   font-family: 'Gamja Flower', cursive;
   color: #3d3d3d;
   font-weight: bold;
-  font-size: 3.5rem;
+  font-size: 3.6rem;
   opacity: .9;
   text-align: center;
   padding-top: 0rem;
@@ -558,12 +558,12 @@ a:hover {
 }
 
 .card-white > a > h3 {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin: .8rem;
 }
 
 .card-white > p {
-  font-size: .9rem;
+  font-size: 1rem;
   margin: .8rem;
 }
 
@@ -626,7 +626,7 @@ a:hover {
 }
 
 .column-n1 > h4 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-align: center;
   font-weight: bold;
 }
@@ -657,12 +657,12 @@ a:hover {
 
 .columns2-next2 > h3 {
   text-align: right;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 .columns2-next2 > h6 {
   font-family: 'Chivo', Verdana, sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: normal;
   line-height: 140%;
   color: #696969;
@@ -728,7 +728,7 @@ a:hover {
 }
 
 .grid-item > p {
-  font-size: .9rem;
+  font-size: 1rem;
   line-height: 140%;
   color: black;
   text-align: left;
@@ -811,7 +811,7 @@ a:hover {
 .card-me > h3 {
   font-size: 1.3rem;
   text-align: right;
-  padding-right: 1.3rem;
+  padding-right: 1.4rem;
 }
 
 .responsiveImg {
@@ -840,7 +840,7 @@ a:hover {
 
 .box5 > h6 {
   font-family: 'Chivo', Verdana, sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: normal;
   line-height: 140%;
   color: #696969;
@@ -910,11 +910,11 @@ a:hover {
     }
 
     .container1 > h2 {
-      font-size: 1.3rem;
+      font-size: 1.4rem;
     }
 
     .container1 > div > h3 {
-      font-size: 1.1rem;
+      font-size: 1.2rem;
     }
 
     .container2 {
@@ -944,12 +944,12 @@ a:hover {
     }
   
     .banner1 > h1 {
-      font-size: 7rem;;
+      font-size: 7.1rem;;
       padding: 30px 0;
     }
 
     .banner1 > h2 {
-      font-size: 1.6rem;
+      font-size: 1.7rem;
     }
 
     .banner2 {
@@ -959,7 +959,7 @@ a:hover {
     .banner2 > a > h1 {
       color: #3d3d3d;
       font-weight: bold;
-      font-size: 2.8rem;
+      font-size: 2.5rem;
       margin-top: .8rem;
       margin-bottom: .8em;
       margin-left: 10%;
@@ -1105,12 +1105,12 @@ a:hover {
   }
 
   .container1 > div > h2 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     text-align: center;
   }
 
   .container1 > div > h3 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     text-align: center;
   }
 
@@ -1118,7 +1118,7 @@ a:hover {
     font-family: Verdana, sans-serif;
     font-weight: bold;
     color: #696969;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   .container2 {
@@ -1164,7 +1164,7 @@ a:hover {
   }
 
   .box5 > p {
-    font-size: .8rem;
+    font-size: .9rem;
   }
 
   .P3wrapper {
@@ -1211,11 +1211,11 @@ a:hover {
   .banner2 > a > h1 {
     color: #3d3d3d;
     font-weight: bold;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     margin-top: .8rem;
     margin-bottom: .8em;
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-left: 8%;
+    margin-right: 8%;
     text-align: center;
   }
 
@@ -1224,7 +1224,7 @@ a:hover {
   }
 
   .grid-item > p {
-    font-size: .8rem;
+    font-size: .9rem;
     line-height: 135%;
   }
 
@@ -1239,7 +1239,7 @@ a:hover {
 
 /* extra small dvices */
 
-@media (max-width: 767px) and (min-device-width: 500px) and (orientation: portrait) {
+@media (max-width: 767px) and (min-device-width: 500px) {
 
   .jumbotron {
     position: relative;
@@ -1467,16 +1467,14 @@ a:hover {
   }
   
   .card-white > a > h3 {
-    font-size: .9rem;
+    font-size: 1rem;
     margin: .5rem;
   }
   
   .card-white > p {
-    font-size: .8rem;
+    font-size: .9rem;
     margin: .5rem;
   }
-  
-
 
   .card-me {
     width: 100%;
@@ -1484,7 +1482,7 @@ a:hover {
   }
 
   .card-me > h3 {
-    font-size: 1rem;
+    font-size: 1.1rem;
     text-align: right;
     padding-right: 1rem;
   }
@@ -1495,7 +1493,7 @@ a:hover {
   }
 
   .columns2-next2 h3 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
 
   .columns2-next2 p {
@@ -1522,7 +1520,7 @@ a:hover {
   .banner2 > a > h1 {
     color: #3d3d3d;
     font-weight: bold;
-    font-size: 2.2rem;
+    font-size: 2.1rem;
     margin-top: .8rem;
     margin-bottom: .8em;
     margin-left: 7%;
@@ -1535,7 +1533,7 @@ a:hover {
   }
 
   .grid-item > p {
-    font-size: .8rem;
+    font-size: .9rem;
     line-height: 130%;
   }
 
@@ -1688,12 +1686,12 @@ a:hover {
   }
 
   .container1 > div > h2 {
-    font-size: .8rem;
+    font-size: .9rem;
     text-align: left;
   }
 
   .container1 > div > h3 {
-    font-size: .8rem;
+    font-size: .9rem;
     text-align: left;
   }
 
@@ -1701,7 +1699,7 @@ a:hover {
     font-family: Verdana, sans-serif;
     font-weight: bold;
     color: #696969;
-    font-size: .8rem;
+    font-size: .9rem;
   }
 
   .container2 {
@@ -1745,7 +1743,7 @@ a:hover {
     padding: 0;
   }
   .box5 > p {
-    font-size: .8rem;
+    font-size: .9rem;
   }  
   
   .P3wrapper {
@@ -1776,12 +1774,12 @@ a:hover {
   }
   
   .card-white > a > h3 {
-    font-size: .9rem;
+    font-size: 1rem;
     margin: .5rem;
   }
   
   .card-white > p {
-    font-size: .8rem;
+    font-size: .9rem;
     margin: .5rem;
   }
   
@@ -1791,7 +1789,7 @@ a:hover {
   }
 
   .card-me > h3 {
-    font-size: .8rem;
+    font-size: .9rem;
     text-align: right;
     padding-right: .4rem;
   }
@@ -1802,15 +1800,15 @@ a:hover {
   }
 
   .columns2-next2 h3 {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .columns2-next2 p {
-    font-size: .8rem;
+    font-size: .9rem;
   }
 
   .banner1 > h1 {
-    font-size: 3rem;
+    font-size: 3.1rem;
     text-align: center;
     margin-left: .7rem;
     margin-right: .7rem;
@@ -1819,7 +1817,7 @@ a:hover {
   }
 
   .banner1 > h2 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
 
   .banner2 {
@@ -1829,7 +1827,7 @@ a:hover {
   .banner2 > a > h1 {
     color: #3d3d3d;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 2.1rem;
     margin-top: .8rem;
     margin-bottom: .8em;
     margin-left: 7%;
@@ -1842,7 +1840,7 @@ a:hover {
   }
 
   .grid-item > p {
-    font-size: .8rem;
+    font-size: .9rem;
     line-height: 130%;
   }
 
