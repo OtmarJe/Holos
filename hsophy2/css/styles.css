@@ -724,7 +724,6 @@ a:hover {
   width: auto;
   height: auto;
   text-align: left;
-  padding: 15px;
   margin: .5rem;
 }
 
@@ -733,6 +732,7 @@ a:hover {
   line-height: 140%;
   color: black;
   text-align: left;
+  padding: 15px;
 }
 
 #soc {background-color: white;}
