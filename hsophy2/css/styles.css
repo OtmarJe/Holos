@@ -46,7 +46,7 @@ main > div {
 footer {
     position: sticky !important;
     bottom: 0;
-    z-index: 4;
+    z-index: 6;
   }
 
 
@@ -238,6 +238,7 @@ a:hover {
   background-size: cover;
   background-position: center;
   padding: 3rem 0;
+  z-index: 3;
 }
 
 .banner0 {
@@ -261,7 +262,7 @@ a:hover {
   background:#A0AA7A;
   align-self: center;
   margin: 2rem;
-  z-index: 6;
+  z-index: 5;
 }
 .circle1:hover {
   border:10px double #bbb;
@@ -347,7 +348,6 @@ a:hover {
   justify-content: center;
   align-items: center;
   min-height: 40vh;
-  z-index: 5;
 }
 
 .banner1 > h1 {
@@ -369,6 +369,7 @@ a:hover {
   width: auto;
   height: auto;
   opacity: .9;
+  z-index: 3;
 }
 
 .container1 > div {
@@ -412,6 +413,7 @@ a:hover {
   height: 5rem;
   margin-top: 5rem;
   margin-bottom: 5rem;
+  z-index: 3;
 }
 
 .container2 > a {
@@ -431,6 +433,7 @@ a:hover {
   text-align: center;
   text-decoration: none;
   transition: .3s;
+  z-index: 4;
 }
 
 .btn-holos:hover {
@@ -526,6 +529,7 @@ a:hover {
   width: 99%;
   height: 20rem;
   margin-bottom: 1rem;
+  z-index: 3;
 }
 
 .flex-cards {
@@ -574,6 +578,7 @@ a:hover {
   height: 100%;
   margin-bottom: 0em;
   margin-top: 0rem;
+  z-index: 3;
 }
 
 /* Look for Style "containerAnimate" in Animations Folder*/
@@ -609,6 +614,7 @@ a:hover {
   background-size: cover;
   background-position: center;
   padding: 3rem 0;
+  z-index: 3;
 }
 
 /* banner2 is used here as on page3, 5 and aboutme */
@@ -626,6 +632,7 @@ a:hover {
   text-align: center;
   padding-bottom: 0rem;
   margin: 0em;
+  z-index: 3;
 }
 
 .column-n1 {
@@ -712,6 +719,7 @@ a:hover {
   height: auto;
   display: flex;
   margin-bottom: 1rem;
+  z-index: 3;
 }
 
 /* Grid */
@@ -787,6 +795,7 @@ a:hover {
 
 .container4 {
   width: 100%;
+  z-index: 3;
 }
 
 .container5 {
@@ -794,6 +803,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 3;
 }
 
 .container-me {
