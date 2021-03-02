@@ -559,12 +559,12 @@ a:hover {
 }
 
 .card-white > a > h3 {
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin: .8rem;
 }
 
 .card-white > p {
-  font-size: 1rem;
+  font-size: .9rem;
   margin: .8rem;
 }
 
@@ -1784,12 +1784,12 @@ a:hover {
   }
   
   .card-white > a > h3 {
-    font-size: 1rem;
+    font-size: .9rem;
     margin: .5rem;
   }
   
   .card-white > p {
-    font-size: .9rem;
+    font-size: .8rem;
     margin: .5rem;
   }
   
@@ -2071,7 +2071,7 @@ a:hover {
   }
   
   .card-white > p {
-    font-size: .9rem;
+    font-size: .8rem;
     margin: .5rem;
   }
   
