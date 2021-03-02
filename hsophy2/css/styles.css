@@ -46,7 +46,7 @@ main > div {
 footer {
     position: sticky !important;
     bottom: 0;
-    z-index: 8;
+    z-index: 5;
   }
 
 
@@ -166,12 +166,12 @@ a:hover {
   background-size: 100% 100%;
   margin-top: 0rem;
   margin-bottom: 0rem;
-  z-index: -1;
+  z-index: 2;
 }
 
 /* End of styles for all pages */
 
-/* dragable Button P2 - P5 / not in use */
+/* dragable Button P2 - P5 / not in use 
 
 .button {
   background-color: #B2B2B2;
@@ -215,7 +215,7 @@ a:hover {
   color: white;
 }
 
-
++/
 /* End of dragable Button P2 - P5 */
 
 
@@ -229,7 +229,7 @@ a:hover {
   -o-background-size: 95% 100%;
   background-size: 95% 100%;
   margin: 4rem;
-  z-index: -2;
+  z-index: 1;
 }
 
 /* box1 is for index, page2, page3*/
@@ -315,6 +315,7 @@ a:hover {
   position: relative;
   display: inline-flex;
   visibility: hidden;
+  z-index: -1;
 }
 
 /* End Styles index */
@@ -328,7 +329,7 @@ a:hover {
   -o-background-size: 90% 85%;
   background-size: 90% 85%;
   margin: 0rem;
-  z-index: -2;
+  z-index: 1;
 }
 
 .container01 {
@@ -336,6 +337,7 @@ a:hover {
   position: relative;
   display: inline-flex;
   visibility: hidden;
+  z-index: 2;
 }
 
 /* box1 is used her too */
@@ -464,7 +466,7 @@ a:hover {
   background-size: 100% 100%;
   margin-top: 0rem;
   margin-bottom: 0rem;
-  z-index: -2;
+  z-index: 1;
 }
 
 /* box1 is used here as on page2 */
@@ -588,7 +590,7 @@ a:hover {
   background-size: 100% 100%;
   margin-top: 0rem;
   margin-bottom: 0rem;
-  z-index: -2;
+  z-index: 2;
 }
 
 .jumbotron-special-4 {
@@ -600,7 +602,7 @@ a:hover {
   background-size: 90% 86%;
   margin-top: 0rem;
   margin-bottom: 0rem;
-  z-index: -1;
+  z-index: 1;
 }
 
 .box3 {
@@ -694,7 +696,7 @@ a:hover {
   background-size: 100% 100%;
   margin-top: -2rem;
   margin-bottom: 0rem;
-  z-index: -2;
+  z-index: 1;
 }
 
 /* box3 is used here as on page4*/
@@ -776,7 +778,7 @@ a:hover {
   background-size: 100% 100%;
   margin-top: 0rem;
   margin-bottom: 0rem;
-  z-index: -2;
+  z-index: 1;
 }
 
 /* banner2 is used here as on page3,4,4 */
