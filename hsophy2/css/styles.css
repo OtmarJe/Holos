@@ -236,6 +236,7 @@ a:hover {
 
 /* box1 is for index, page2, page3*/
 .box1 {
+  position: relative;
   background-size: cover;
   background-position: center;
   padding: 3rem 0;
@@ -524,6 +525,7 @@ a:hover {
 }
 
 .container3 {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
