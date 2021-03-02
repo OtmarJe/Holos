@@ -223,6 +223,7 @@ a:hover {
 /* Start Styles index */
 
 .jumbotron-special {
+  position: relative;
   background: url("../images/flow-h1-1.jpg") no-repeat center center;
   -webkit-background-size: 95% 100%;
   -moz-background-size: 95% 100%;
@@ -579,6 +580,18 @@ a:hover {
 
 /* End Styles page3 */
 /* Start Styles page4 */
+
+.jumbotron-special-4a {
+  position: relative;
+  background: url("../images/ocler-r-h-3.jpg") no-repeat center center;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  z-index: 1;
+}
 
 .jumbotron-special-4 {
   position: relative;
@@ -994,15 +1007,6 @@ a:hover {
     z-index: 2;
   }
 
-  .jumbotron-special-1 {
-    background: url("../images/ocker-r-iP-1.jpg") no-repeat center center;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    z-index: 2;
-  }
-
   .jumbotron-special-2 {
     position: relative;
     background: url("../images/holo-b-iP-1.jpg") no-repeat center center;
@@ -1026,6 +1030,15 @@ a:hover {
     z-index: 0;
   }
   
+  .jumbotron-special-4a {
+    background: url("../images/ocker-r-iP-1.jpg") no-repeat center center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    z-index: 2;
+  }
+
   .jumbotron-special-4 {
     position: relative;
     background: url("../images/krick-v-w-1.jpg") no-repeat center center;
@@ -1264,16 +1277,6 @@ a:hover {
     z-index: 2;
   }
   
-  .jumbotron-special-1 {
-    position: relative;
-    background: url("../images/ocker-r-v-2.jpg") no-repeat center center;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    z-index: 2;
-  }
-
   .jumbotron-special-2 {
     position: relative;
     background: url("../images/holo-b-v-2.jpg") no-repeat center center;
@@ -1297,13 +1300,23 @@ a:hover {
     z-index: 0;
   }
 
+  .jumbotron-special-4a {
+    position: relative;
+    background: url("../images/ocker-r-iP-1.jpg") no-repeat center center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    z-index: 2;
+  }
+
   .jumbotron-special-4 {
     position: relative;
     background: url("../images/krick-v-w-1.jpg") no-repeat center center;
-    -webkit-background-size: 86% 90%;
-    -moz-background-size: 86% 90%;
-    -o-background-size: 86% 90%;
-    background-size: 86% 90%;
+    -webkit-background-size: 86% 85%;
+    -moz-background-size: 86% 85%;
+    -o-background-size: 86% 85%;
+    background-size: 86% 85%;
     margin-top: -3rem;
     margin-bottom: 0rem;
     z-index: 0;
@@ -1574,15 +1587,6 @@ a:hover {
     z-index: 2;
   }
 
-  .jumbotron-special-1 {
-    background: url("../images/ocker-r-v-2.jpg") no-repeat center center;
-    -webkit-background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    -o-background-size: 100% 100%;
-    background-size: 100% 100%;
-    z-index: 2;
-  }
-
   .jumbotron-special-2 {
     position: relative;
     background: url("../images/holo-b-v-2.jpg") no-repeat center center;
@@ -1606,13 +1610,23 @@ a:hover {
     z-index: 0;
   }
 
+  .jumbotron-special-4a {
+    position: relative;
+    background: url("../images/ocker-r-iP-1.jpg") no-repeat center center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    z-index: 2;
+  }
+
   .jumbotron-special-4 {
     position: relative;
     background: url("../images/krick-v-w-1.jpg") no-repeat center center;
-    -webkit-background-size: 86% 90%;
-    -moz-background-size: 86% 90%;
-    -o-background-size: 86% 90%;
-    background-size: 86% 90%;
+    -webkit-background-size: 86% 85%;
+    -moz-background-size: 86% 85%;
+    -o-background-size: 86% 85%;
+    background-size: 86% 85%;
     margin-top: -2rem;
     margin-bottom: 0rem;
     z-index: 0;
