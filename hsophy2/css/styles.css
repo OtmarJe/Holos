@@ -337,7 +337,7 @@ a:hover {
   position: relative;
   display: inline-flex;
   visibility: hidden;
-  z-index: 2;
+  z-index: -1;
 }
 
 /* box1 is used her too */
@@ -529,6 +529,7 @@ a:hover {
 }
 
 .flex-cards {
+  position: relative;
   display: flex;
   justify-content: center;
   flex-flow: row;
