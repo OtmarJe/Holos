@@ -37,6 +37,7 @@ p {
 main {
     position: static;
     display: cover;
+    z-index: 3;
   }
 
 main > div {
@@ -1305,7 +1306,7 @@ a:hover {
 
 /* extra small dvices */
 
-@media (max-width: 767px) and (min-device-width: 500px) {
+@media (max-width: 767px) and (min-device-width: 500px) and (orientation: landscape){
 
   .jumbotron {
     background: url("../images/Rahmen-j-3-9.jpg") no-repeat center center;
