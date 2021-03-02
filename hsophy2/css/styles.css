@@ -46,7 +46,7 @@ main > div {
 footer {
     position: sticky !important;
     bottom: 0;
-    z-index: 6;
+    z-index: 8;
   }
 
 
@@ -166,7 +166,7 @@ a:hover {
   background-size: 100% 100%;
   margin-top: 0rem;
   margin-bottom: 0rem;
-  z-index: 1;
+  z-index: -1;
 }
 
 /* End of styles for all pages */
@@ -200,7 +200,6 @@ a:hover {
   text-align: center;
   height: auto;
   margin-bottom: auto;
-  z-index: 3;
 }
 
 #mydiv {
@@ -230,7 +229,7 @@ a:hover {
   -o-background-size: 95% 100%;
   background-size: 95% 100%;
   margin: 4rem;
-  z-index: 0;
+  z-index: -2;
 }
 
 /* box1 is for index, page2, page3*/
@@ -239,7 +238,6 @@ a:hover {
   background-size: cover;
   background-position: center;
   padding: 3rem 0;
-  z-index: 3;
 }
 
 .banner0 {
@@ -263,7 +261,7 @@ a:hover {
   background:#A0AA7A;
   align-self: center;
   margin: 2rem;
-  z-index: 5;
+  z-index: 6;
 }
 .circle1:hover {
   border:10px double #bbb;
@@ -317,7 +315,6 @@ a:hover {
   position: relative;
   display: inline-flex;
   visibility: hidden;
-  z-index: -1;
 }
 
 /* End Styles index */
@@ -331,7 +328,7 @@ a:hover {
   -o-background-size: 90% 85%;
   background-size: 90% 85%;
   margin: 0rem;
-  z-index: 0;
+  z-index: -2;
 }
 
 .container01 {
@@ -339,7 +336,6 @@ a:hover {
   position: relative;
   display: inline-flex;
   visibility: hidden;
-  z-index: -1;
 }
 
 /* box1 is used her too */
@@ -370,7 +366,6 @@ a:hover {
   width: auto;
   height: auto;
   opacity: .9;
-  z-index: 3;
 }
 
 .container1 > div {
@@ -414,7 +409,6 @@ a:hover {
   height: 5rem;
   margin-top: 5rem;
   margin-bottom: 5rem;
-  z-index: 3;
 }
 
 .container2 > a {
@@ -434,7 +428,7 @@ a:hover {
   text-align: center;
   text-decoration: none;
   transition: .3s;
-  z-index: 4;
+  z-index: 5;
 }
 
 .btn-holos:hover {
@@ -456,7 +450,6 @@ a:hover {
   text-align: center;
   height: auto;
   margin-bottom: auto;
-  z-index: 3;
 }
 
 /* End Styles page2 */
@@ -471,7 +464,7 @@ a:hover {
   background-size: 100% 100%;
   margin-top: 0rem;
   margin-bottom: 0rem;
-  z-index: 0;
+  z-index: -2;
 }
 
 /* box1 is used here as on page2 */
@@ -531,7 +524,6 @@ a:hover {
   width: 99%;
   height: 20rem;
   margin-bottom: 1rem;
-  z-index: 3;
 }
 
 .flex-cards {
@@ -580,7 +572,6 @@ a:hover {
   height: 100%;
   margin-bottom: 0em;
   margin-top: 0rem;
-  z-index: 3;
 }
 
 /* Look for Style "containerAnimate" in Animations Folder*/
@@ -597,7 +588,7 @@ a:hover {
   background-size: 100% 100%;
   margin-top: 0rem;
   margin-bottom: 0rem;
-  z-index: 1;
+  z-index: -2;
 }
 
 .jumbotron-special-4 {
@@ -609,14 +600,13 @@ a:hover {
   background-size: 90% 86%;
   margin-top: 0rem;
   margin-bottom: 0rem;
-  z-index: 0;
+  z-index: -1;
 }
 
 .box3 {
   background-size: cover;
   background-position: center;
   padding: 3rem 0;
-  z-index: 3;
 }
 
 /* banner2 is used here as on page3, 5 and aboutme */
@@ -634,7 +624,6 @@ a:hover {
   text-align: center;
   padding-bottom: 0rem;
   margin: 0em;
-  z-index: 3;
 }
 
 .column-n1 {
@@ -705,7 +694,7 @@ a:hover {
   background-size: 100% 100%;
   margin-top: -2rem;
   margin-bottom: 0rem;
-  z-index: 0;
+  z-index: -2;
 }
 
 /* box3 is used here as on page4*/
@@ -721,7 +710,6 @@ a:hover {
   height: auto;
   display: flex;
   margin-bottom: 1rem;
-  z-index: 3;
 }
 
 /* Grid */
@@ -788,7 +776,7 @@ a:hover {
   background-size: 100% 100%;
   margin-top: 0rem;
   margin-bottom: 0rem;
-  z-index: 0;
+  z-index: -2;
 }
 
 /* banner2 is used here as on page3,4,4 */
@@ -797,7 +785,6 @@ a:hover {
 
 .container4 {
   width: 100%;
-  z-index: 3;
 }
 
 .container5 {
@@ -805,7 +792,6 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 3;
 }
 
 .container-me {
@@ -978,14 +964,12 @@ a:hover {
       height: 18rem;
       position: relative;
       display: inline-flex;
-      z-index: -1;
     }
 
     .container01 {
       height: 15rem;
       position: relative;
       display: inline-flex;
-      z-index: -1;
     }
 
     .container02 {
@@ -1055,7 +1039,7 @@ a:hover {
     }
 
     .grid {
-    grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
     }
     
     #imgLogo {
@@ -1157,15 +1141,13 @@ a:hover {
   .container00 {
     height: 15rem;
     position: relative;
-    display: inline-flex;
-    z-index: -1;
+    display: inline-flex;;
   }
 
   .container01 {
     height: 10rem;
     position: relative;
     display: inline-flex;
-    z-index: -1;
   }
 
   .container02 {
@@ -1408,14 +1390,12 @@ a:hover {
     height: 13.5rem;
     position: relative;
     display: inline-flex;
-    z-index: -1;
   }
 
   .container01 {
     height: 8rem;
     position: relative;
     display: inline-flex;
-    z-index: -1;
   }
 
   .container02 {
@@ -1695,14 +1675,12 @@ a:hover {
     height: 13rem;
     position: relative;
     display: inline-flex;
-    z-index: -1;
   }
 
   .container01 {
     height: 6rem;
     position: relative;
     display: inline-flex;
-    z-index: -1;
   }
 
   .container02 {
@@ -1980,14 +1958,12 @@ a:hover {
     height: 13rem;
     position: relative;
     display: inline-flex;
-    z-index: -1;
   }
 
   .container01 {
     height: 6rem;
     position: relative;
     display: inline-flex;
-    z-index: -1;
   }
 
   .container02 {
