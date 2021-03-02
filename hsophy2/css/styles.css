@@ -230,7 +230,7 @@ a:hover {
   -o-background-size: 95% 100%;
   background-size: 95% 100%;
   margin: 4rem;
-  z-index: 2;
+  z-index: 0;
 }
 
 /* box1 is for index, page2, page3*/
@@ -898,19 +898,70 @@ a:hover {
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
 
-  .jumbotron-special-4 {
-    position: relative;
-    background: url("../images/krick-h-w-2.jpg") no-repeat center center;
+  .jumbotron-special {
+    background: url("../images/Flow-iP-4.jpg") no-repeat center center;
+    -webkit-background-size: 90% 100%;
+    -moz-background-size: 90% 100%;
+    -o-background-size: 90% 100%;
+    background-size: 90% 100%;
+  }
+
+  .jumbotron-special-2 {
+    background: url("../images/holo-b-iP-1.jpg") no-repeat center center;
     -webkit-background-size: 90% 90%;
     -moz-background-size: 90% 90%;
     -o-background-size: 90% 90%;
     background-size: 90% 90%;
-    margin-top: 0rem;
-    margin-bottom: 0rem;
-    z-index: 0;
+    margin: 0rem;
   }
   
+  .jumbotron-special-3 {
+    background: url("../images/circ-iP-3.jpg") no-repeat center center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+  
+  .jumbotron-special-4a {
+    background: url("../images/ocker-r-iP-1.jpg") no-repeat center center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+  }
 
+  .jumbotron-special-4 {
+    background: url("../images/krick-v-w-1.jpg") no-repeat center center;
+    -webkit-background-size: 80% 90%;
+    -moz-background-size: 80% 90%;
+    -o-background-size: 80% 90%;
+    background-size: 80% 90%;
+    margin: auto;
+  }
+  
+  .jumbotron-special-5 {
+    background: url("../images/krick-r-iP-2.jpg") no-repeat center center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    margin-top: -2rem;
+    margin-bottom: 0rem;
+  }
+  
+  .jumbotron-special-6 {
+    background: url("../images/holosophy-iP-1.jpg") no-repeat center center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    margin-top: -5rem;
+    margin-bottom: 0rem;
+  }
+  
     .container00 {
       height: 18rem;
       position: relative;
@@ -1011,28 +1062,23 @@ a:hover {
 @media all and (min-width: 768px) and (max-width: 991px) {
 
   .jumbotron-special {
-    position: relative;
     background: url("../images/Flow-iP-4.jpg") no-repeat center center;
     -webkit-background-size: 90% 100%;
     -moz-background-size: 90% 100%;
     -o-background-size: 90% 100%;
     background-size: 90% 100%;
-    z-index: 2;
   }
 
   .jumbotron-special-2 {
-    position: relative;
     background: url("../images/holo-b-iP-1.jpg") no-repeat center center;
     -webkit-background-size: 90% 90%;
     -moz-background-size: 90% 90%;
     -o-background-size: 90% 90%;
     background-size: 90% 90%;
     margin: 0rem;
-    z-index: 0;
   }
   
   .jumbotron-special-3 {
-    position: relative;
     background: url("../images/circ-iP-3.jpg") no-repeat center center;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
@@ -1040,7 +1086,6 @@ a:hover {
     background-size: 100% 100%;
     margin-top: 0rem;
     margin-bottom: 0rem;
-    z-index: 0;
   }
   
   .jumbotron-special-4a {
@@ -1049,11 +1094,11 @@ a:hover {
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
-    z-index: 2;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
   }
 
   .jumbotron-special-4 {
-    position: relative;
     background: url("../images/krick-v-w-1.jpg") no-repeat center center;
     -webkit-background-size: 86% 90%;
     -moz-background-size: 86% 90%;
@@ -1061,11 +1106,9 @@ a:hover {
     background-size: 86% 90%;
     margin-top: -3rem;
     margin-bottom: 0rem;
-    z-index: 0;
   }
   
   .jumbotron-special-5 {
-    position: relative;
     background: url("../images/krick-r-iP-2.jpg") no-repeat center center;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
@@ -1073,11 +1116,9 @@ a:hover {
     background-size: 100% 100%;
     margin-top: -2rem;
     margin-bottom: 0rem;
-    z-index: 0;
   }
   
   .jumbotron-special-6 {
-    position: relative;
     background: url("../images/holosophy-iP-1.jpg") no-repeat center center;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
@@ -1085,7 +1126,6 @@ a:hover {
     background-size: 100% 100%;
     margin-top: -5rem;
     margin-bottom: 0rem;
-    z-index: 0;
   }
   
   .containerAnimate1 {
@@ -1268,7 +1308,6 @@ a:hover {
 @media (max-width: 767px) and (min-device-width: 500px) {
 
   .jumbotron {
-    position: relative;
     background: url("../images/Rahmen-j-3-9.jpg") no-repeat center center;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
@@ -1276,7 +1315,6 @@ a:hover {
     background-size: 100% 100%;
     margin-top: 0rem;
     margin-bottom: 0rem;
-    z-index: 1;
   }
 
   .jumbotron-special {
@@ -1287,22 +1325,18 @@ a:hover {
     background-size: 80% 90%;
     margin: auto;
     overflow: hidden;
-    z-index: 2;
   }
   
   .jumbotron-special-2 {
-    position: relative;
     background: url("../images/holo-b-v-2.jpg") no-repeat center center;
     -webkit-background-size: 85% 90%;
     -moz-background-size: 85% 90%;
     -o-background-size: 85% 90%;
     background-size: 85% 90%;
     margin: 0rem;
-    z-index: 0;
   }
   
   .jumbotron-special-3 {
-    position: relative;
     background: url("../images/circ-v1-2.jpg") no-repeat center center;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
@@ -1310,33 +1344,27 @@ a:hover {
     background-size: 100% 100%;
     margin-top: 0rem;
     margin-bottom: 0rem;
-    z-index: 0;
   }
 
   .jumbotron-special-4a {
-    position: relative;
-    background: url("../images/ocker-r-iP-1.jpg") no-repeat center center;
+    background: url("../images/ocker-r-v-2.jpg") no-repeat center center;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
-    z-index: 2;
   }
 
   .jumbotron-special-4 {
-    position: relative;
     background: url("../images/krick-v-w-1.jpg") no-repeat center center;
-    -webkit-background-size: 86% 85%;
-    -moz-background-size: 86% 85%;
-    -o-background-size: 86% 85%;
-    background-size: 86% 85%;
+    -webkit-background-size: 85% 90%;
+    -moz-background-size: 85% 90%;
+    -o-background-size: 85% 90%;
+    background-size: 85% 90%;
     margin-top: -3rem;
     margin-bottom: 0rem;
-    z-index: 0;
   }
   
   .jumbotron-special-5 {
-    position: relative;
     background: url("../images/krick-r-v-3.jpg") no-repeat center center;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
@@ -1344,11 +1372,9 @@ a:hover {
     background-size: 100% 100%;
     margin-top: -4rem;
     margin-bottom: 0rem;
-    z-index: 0;
   }
   
   .jumbotron-special-6 {
-    position: relative;
     background: url("../images/holosophy-v-3.jpg") no-repeat center center;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
@@ -1356,7 +1382,6 @@ a:hover {
     background-size: 100% 100%;
     margin-top: -5rem;
     margin-bottom: 0rem;
-    z-index: 0;
   }
 
   .containerAnimate1 {
@@ -1578,7 +1603,6 @@ a:hover {
 @media (max-width: 499px) and (min-device-width: 300px) and (orientation: portrait) {
 
   .jumbotron {
-    position: relative;
     background: url("../images/Rahmen-j-3-9.jpg") no-repeat center center;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
@@ -1586,33 +1610,27 @@ a:hover {
     background-size: 100% 100%;
     margin-top: 0rem;
     margin-bottom: 0rem;
-    z-index: 1;
   }
 
   .jumbotron-special {
-    position: relative;
     background: url("../images/flow-v1-2.jpg") no-repeat center center;
     -webkit-background-size: 85% 90%;
     -moz-background-size: 85% 90%;
     -o-background-size: 85% 90%;
     background-size: 85% 90%;
     margin: auto;
-    z-index: 2;
   }
 
   .jumbotron-special-2 {
-    position: relative;
     background: url("../images/holo-b-v-2.jpg") no-repeat center center;
     -webkit-background-size: 83% 90%;
     -moz-background-size: 83% 90%;
     -o-background-size: 83% 90%;
     background-size: 83% 90%;
     margin: 0rem;
-    z-index: 0;
   }
   
   .jumbotron-special-3 {
-    position: relative;
     background: url("../images/circ-v1-2.jpg") no-repeat center center;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
@@ -1620,33 +1638,27 @@ a:hover {
     background-size: 100% 100%;
     margin-top: 0rem;
     margin-bottom: 0rem;
-    z-index: 0;
   }
 
   .jumbotron-special-4a {
-    position: relative;
-    background: url("../images/ocker-r-iP-1.jpg") no-repeat center center;
+    background: url("../images/ocker-r-v-2.jpg") no-repeat center center;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
     background-size: 100% 100%;
-    z-index: 2;
   }
 
   .jumbotron-special-4 {
-    position: relative;
     background: url("../images/krick-v-w-1.jpg") no-repeat center center;
-    -webkit-background-size: 86% 85%;
-    -moz-background-size: 86% 85%;
-    -o-background-size: 86% 85%;
-    background-size: 86% 85%;
+    -webkit-background-size: 80% 90%;
+    -moz-background-size: 80% 90%;
+    -o-background-size: 80% 90%;
+    background-size: 80% 90%;
     margin-top: -2rem;
     margin-bottom: 0rem;
-    z-index: 0;
   }
   
   .jumbotron-special-5 {
-    position: relative;
     background: url("../images/krick-r-v-3.jpg") no-repeat center center;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
@@ -1654,11 +1666,9 @@ a:hover {
     background-size: 100% 100%;
     margin-top: -2rem;
     margin-bottom: 0rem;
-    z-index: 0;
   }
   
   .jumbotron-special-6 {
-    position: relative;
     background: url("../images/holosophy-v-3.jpg") no-repeat center center;
     -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
@@ -1666,7 +1676,6 @@ a:hover {
     background-size: 100% 100%;
     margin-top: -5rem;
     margin-bottom: 0rem;
-    z-index: 0;
   }
   
   .containerAnimate1 {
