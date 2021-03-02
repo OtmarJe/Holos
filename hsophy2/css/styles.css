@@ -596,10 +596,10 @@ a:hover {
 .jumbotron-special-4 {
   position: relative;
   background: url("../images/krick-h-w-2.jpg") no-repeat center center;
-  -webkit-background-size: 90% 90%;
-  -moz-background-size: 90% 90%;
-  -o-background-size: 90% 90%;
-  background-size: 90% 90%;
+  -webkit-background-size: 90% 88%;
+  -moz-background-size: 90% 88%;
+  -o-background-size: 90% 88%;
+  background-size: 90% 88%;
   margin-top: 0rem;
   margin-bottom: 0rem;
   z-index: 0;
