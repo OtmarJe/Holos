@@ -133,8 +133,8 @@ a:hover {
   justify-content: center;
   width: 100%;
   text-align: center;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   height: auto;
   margin-top: 0rem;
 }
@@ -1125,11 +1125,6 @@ a:hover {
     margin-bottom: 0rem;
   }
   
-  .footer {
-    padding-top: 1.3rem;
-    padding-bottom: 1.3rem;
-  }
-
   .containerAnimate1 {
     height: 3rem;
   }
@@ -1377,10 +1372,10 @@ a:hover {
   }
 
   .footer {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
   }
-
+  
   .containerAnimate1 {
     height: 3rem;
   }
@@ -1668,10 +1663,10 @@ a:hover {
   }
 
   .footer {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
   }
-
+  
   .containerAnimate1 {
     height: 3rem;
   }
@@ -1958,10 +1953,10 @@ a:hover {
   }
   
   .footer {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
   }
-
+  
   .containerAnimate1 {
     height: 3rem;
   }
@@ -2246,10 +2241,10 @@ a:hover {
   }
   
   .footer {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: .7rem;
+    padding-bottom: .7rem;
   }
-
+  
   .containerAnimate1 {
     height: 3rem;
   }
