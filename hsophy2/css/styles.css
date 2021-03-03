@@ -1292,7 +1292,7 @@ a:hover {
   
 }
 
-@media (orientation: landscape ){
+@media (min-width: 520px) and (max-width: 832px) and (orientation: landscape ){
 
   .jumbotron {
     background: url("../images/Rahmen-j-3-9.jpg") no-repeat center center;
@@ -1578,7 +1578,7 @@ a:hover {
 
 /* extra small dvices */
 
-@media (max-width: 767px) and (min-device-width: 500px) {
+@media (max-width: 767px) and (min-device-width: 500px) and (orientation: portrait) {
 
   .jumbotron {
     background: url("../images/Rahmen-j-3-9.jpg") no-repeat center center;
