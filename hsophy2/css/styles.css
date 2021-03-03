@@ -1292,6 +1292,290 @@ a:hover {
   
 }
 
+@media (orientation: landscape ){
+
+  .jumbotron {
+    background: url("../images/Rahmen-j-3-9.jpg") no-repeat center center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+
+  .jumbotron-special {
+    background: url("../images/flow-v2-3.jpg") no-repeat center center;
+    -webkit-background-size: 80% 90%;
+    -moz-background-size: 80% 90%;
+    -o-background-size: 80% 90%;
+    background-size: 80% 90%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .jumbotron-special-2 {
+    background: url("../images/holo-b-v-2.jpg") no-repeat center center;
+    -webkit-background-size: 85% 90%;
+    -moz-background-size: 85% 90%;
+    -o-background-size: 85% 90%;
+    background-size: 85% 90%;
+    margin: 0rem;
+  }
+  
+  .jumbotron-special-3 {
+    background: url("../images/circ-v1-2.jpg") no-repeat center center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+
+  .jumbotron-special-4a {
+    background: url("../images/ocker-r-v-2.jpg") no-repeat center center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+  }
+
+  .jumbotron-special-4 {
+    background: url("../images/krick-v-w-1.jpg") no-repeat center center;
+    -webkit-background-size: 83% 90%;
+    -moz-background-size: 83% 90%;
+    -o-background-size: 83% 90%;
+    background-size: 83% 90%;
+    margin-top: -3rem;
+    margin-bottom: 0rem;
+  }
+  
+  .jumbotron-special-5 {
+    background: url("../images/krick-r-v-3.jpg") no-repeat center center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    margin-top: -4rem;
+    margin-bottom: 0rem;
+  }
+  
+  .jumbotron-special-6 {
+    background: url("../images/holosophy-v-3.jpg") no-repeat center center;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+    margin-top: -5rem;
+    margin-bottom: 0rem;
+  }
+
+  .containerAnimate1 {
+    height: 3rem;
+  }
+
+  .containerAnimate2 {
+    height: 3rem;
+  }
+
+  .containerAnimate3 {
+    height: 3rem;
+  }
+
+  .containerAnimate4 {
+    height: 3rem;
+  }
+
+  .container00 {
+    height: 13.5rem;
+    position: relative;
+    display: inline-flex;
+  }
+
+  .container01 {
+    height: 8rem;
+    position: relative;
+    display: inline-flex;
+  }
+
+  .container02 {
+    min-height: 1.5rem;
+    margin-bottom: auto;
+  }
+
+  .container1 {
+    height: auto;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+  }
+
+  .container1 > div > h2 {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+
+  .container1 > div > h3 {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .container1 > h4 {
+    font-size: 1rem;
+  }
+
+  .container2 {
+    min-height: 70vw;
+    margin: 1.2rem;
+  }
+
+  .container3 {
+    max-width: auto;
+    height: auto;
+  }
+
+  .container-me {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .container4 {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+  }
+
+  .box1 {
+    padding: 2rem 0;
+  }
+
+  .box2 {
+    margin-bottom: 0rem;
+    margin-top: .5rem;
+  }
+
+  .box3 {
+    background-size: cover;
+    background-position: center;
+    padding: .5rem 0;
+    margin-top: 2rem;
+  }
+
+  .box5 {
+    width: 98%;
+    height: auto;
+    padding: 0;
+  }
+
+  .box5 > p {
+    font-size: 1rem;
+  }  
+  
+  .P3wrapper {
+    margin-left: .3rem;
+    margin-right: .3rem;
+    margin-bottom: .3rem;
+  }
+  
+  .flex-cards {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .flex-cards > div {
+    margin: 7px;
+  }
+  
+  .card-white {
+    width: 18rem;
+    padding: 24px 16px 6px 16px;
+    margin: 4px;
+  }
+  
+  .card-white > img {
+    width: 12rem;
+    height: 12rem;
+  }
+  
+  .card-white > a > h3 {
+    font-size: 1rem;
+    margin: .5rem;
+  }
+  
+  .card-white > p {
+    font-size: .9rem;
+    margin: .5rem;
+  }
+
+  .card-me {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .card-me > h3 {
+    font-size: 1.1rem;
+    text-align: right;
+    padding-right: 1rem;
+  }
+
+  .columns-next2 {
+    display: flex;
+    flex-flow: wrap; 
+  }
+
+  .columns2-next2 h3 {
+    font-size: 1.2rem;
+  }
+
+  .columns2-next2 p {
+    font-size: 1rem;
+  }
+
+  .banner1 > h1 {
+    font-size: 3.3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: -5rem;
+    margin-bottom: 2rem;
+  }
+
+  .banner1 > h2 {
+    font-size: 1.5rem;
+  }
+
+  .banner2 {
+    height: 2rem;
+  }
+
+  .banner2 > a > h1 {
+    font-size: 2.1rem;
+    margin-top: .8rem;
+    margin-bottom: .8em;
+    margin-left: 7%;
+    margin-right: 7%;
+    text-align: center;
+  }
+
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grid-item > p {
+    font-size: .9rem;
+    line-height: 130%;
+  }
+
+  #imgLogo {
+    float: right;
+    padding-right: .8rem;;
+    max-width: 40px;
+    max-height: 40px;
+  }
+
+
+}
+
 /* extra small dvices */
 
 @media (max-width: 767px) and (min-device-width: 500px) {
