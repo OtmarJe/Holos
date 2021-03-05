@@ -85,6 +85,7 @@ a:hover {
 .dropdown {
     position: relative;
     display: grid;
+    z-index: 9;
   }
   
   /* Dropdown Content */
@@ -420,6 +421,7 @@ a:hover {
 /* my move on btn */
 
 .btn-holos {
+  position: relative;
   background-color: #A0AA7A;
   width: 130px;
   padding: 20px;
