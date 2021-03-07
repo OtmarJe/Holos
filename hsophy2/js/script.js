@@ -1,14 +1,14 @@
 paperScript = function() {
 	var mousePoint = view.center;
-	var amount = 30;
+	var amount = 300;
 	var colors = ['#A0AA7A', 'grey', '#F96565', 'white'];
 
 	for (var i = 0; i < amount; i++) {
-		var rect = new Rectangle([0, 0], [30, 30]);
+		var rect = new Rectangle([0, 0], [100, 100]);
 		rect.center = mousePoint;
 		var path = new Path.Rectangle(rect, 6);
 		path.fillColor = colors[i % 4];
-		var scale = (1 - i / amount) * 80;
+		var scale = (1 - i / amount) * 30;
 		path.scale(scale);
 		
 	}
