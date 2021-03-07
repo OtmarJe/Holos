@@ -25,7 +25,7 @@ h2 {
 }
 
 h3 {
-  color: #404042;
+  color: #3d3d3d;
 }
 
 p {
@@ -42,7 +42,7 @@ main {
 main > div {
     overflow: hidden;
   }
-    
+  
 footer {
     position: sticky !important;
     bottom: 0;
@@ -385,7 +385,7 @@ a:hover {
 
 .container1 > div > h4 {
   font-weight: bold;
-  color: #404042;
+  color: #525252;
   font-size: 1.1rem;
 }
 
@@ -394,7 +394,6 @@ a:hover {
   color: #696969;
   font-size: 1.6rem;
   text-align: center;
-
 }
 
 .container1 > div > h3 {
@@ -865,6 +864,56 @@ a:hover {
 
 /* End Styles aboutme */
 
+/* Start of To You */
+
+canvas {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.centered {
+  position: absolute !important;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+
+.button-holos {
+  position: relative;
+  background-color: #A0AA7A;
+  width: auto;
+  height: auto;
+  padding: 5%;
+  border-radius: 5px;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  transition: .3s;
+  z-index: 5;
+}
+
+.buttonn-holos:hover {
+  background-color: #F96565;
+}
+
+.buttonn-impress {
+  font-family: 'Gamja Flower', cursive;
+  font-size: 2rem;
+  color: white;
+}
+
+.buttonn-impress:hover {
+  color: black;
+}
+
+/* End of To You */
+
 
 /* Start of MEDIA Q's */
 
@@ -1052,6 +1101,10 @@ a:hover {
       padding-right: .8rem;;
       max-width: 50px;
       max-height: 50px;
+    }
+    
+    .buttonn-impress {
+      font-size: 1.5rem;
     }
     
   }
@@ -1290,6 +1343,10 @@ a:hover {
     padding-right: .8rem;;
     max-width: 50px;
     max-height: 50px;
+  }
+  
+  .buttonn-impress {
+    font-size: 1.4rem;
   }
   
 }
@@ -1580,7 +1637,10 @@ a:hover {
     max-height: 40px;
   }
 
-
+  .buttonn-impress {
+    font-size: 1.3rem;
+  }
+  
 }
 
 /* extra small dvices */
@@ -1871,6 +1931,10 @@ a:hover {
     max-height: 40px;
   }
 
+  .buttonn-impress {
+    font-size: 1.3rem;
+  }
+  
 }
 
 
@@ -2160,6 +2224,10 @@ a:hover {
     max-height: 40px;
   }
 
+  .buttonn-impress {
+    font-size: 1.2rem;
+  }
+  
 }
 
 /* super extra extra small dvices */
@@ -2447,5 +2515,9 @@ a:hover {
     max-height: 40px;
   }
 
+  .buttonn-impress {
+    font-size: 1.1rem;
+  }
+  
 }
 
