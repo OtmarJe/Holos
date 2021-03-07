@@ -878,7 +878,6 @@ canvas {
   position: absolute !important;
   top: 50%;
   left: 50%;
-  /* bring your own prefixes */
   transform: translate(-50%, -50%);
   z-index: 5;
 }
@@ -886,10 +885,10 @@ canvas {
 
 .button-holos {
   position: relative;
-  background-color: #A0AA7A;
+  background-color: #F96565;
   width: auto;
   height: auto;
-  padding: 5%;
+  padding: 2%;
   border-radius: 5px;
   border-top: 1px solid black;
   border-left: 1px solid black;
@@ -900,17 +899,18 @@ canvas {
   z-index: 5;
 }
 
-.buttonn-holos:hover {
-  background-color: #F96565;
+.button-holos:hover {
+  background-color: #A0AA7A;
 }
 
-.buttonn-impress {
-  font-family: 'Gamja Flower', cursive;
-  font-size: 2rem;
+.button-impress {
+  font-family: 'Chivo', Verdana, sans-serif;
+  font-size: 1.5rem;
+  line-height: 140%;
   color: white;
 }
 
-.buttonn-impress:hover {
+.button-impress:hover {
   color: black;
 }
 
@@ -1105,8 +1105,9 @@ canvas {
       max-height: 50px;
     }
     
-    .buttonn-impress {
-      font-size: 1.4rem;
+    .button-impress {
+      font-size: 1.2rem;
+      line-height: 135%;
     }
     
   }
@@ -1347,8 +1348,9 @@ canvas {
     max-height: 50px;
   }
   
-  .buttonn-impress {
-    font-size: 1.2rem;
+  .button-impress {
+    font-size: .9rem;
+    line-height: 135%;
   }
   
 }
@@ -1639,8 +1641,9 @@ canvas {
     max-height: 40px;
   }
 
-  .buttonn-impress {
-    font-size: 1.1rem;
+  .button-impress {
+    font-size: .9rem;
+    line-height: 130%;
   }
   
 }
@@ -1933,8 +1936,9 @@ canvas {
     max-height: 40px;
   }
 
-  .buttonn-impress {
-    font-size: 1.1rem;
+  .button-impress {
+    font-size: .9rem;
+    line-height: 130%;
   }
   
 }
@@ -2226,8 +2230,9 @@ canvas {
     max-height: 40px;
   }
 
-  .buttonn-impress {
-    font-size: 1rem;
+  .button-impress {
+    font-size: .9rem;
+    line-height: 130%;
   }
   
 }
@@ -2517,8 +2522,9 @@ canvas {
     max-height: 40px;
   }
 
-  .buttonn-impress {
-    font-size: .9rem;
+  .button-impress {
+    font-size: .8rem;
+    line-height: 130%;
   }
   
 }
