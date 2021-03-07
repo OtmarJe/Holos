@@ -868,6 +868,8 @@ a:hover {
 
 canvas {
   position: relative;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
   z-index: 1;
 }
@@ -1104,7 +1106,7 @@ canvas {
     }
     
     .buttonn-impress {
-      font-size: 1.5rem;
+      font-size: 1.4rem;
     }
     
   }
@@ -1346,7 +1348,7 @@ canvas {
   }
   
   .buttonn-impress {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
   
 }
@@ -1638,7 +1640,7 @@ canvas {
   }
 
   .buttonn-impress {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   
 }
@@ -1932,7 +1934,7 @@ canvas {
   }
 
   .buttonn-impress {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
   
 }
@@ -2225,7 +2227,7 @@ canvas {
   }
 
   .buttonn-impress {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   
 }
@@ -2516,7 +2518,7 @@ canvas {
   }
 
   .buttonn-impress {
-    font-size: 1.1rem;
+    font-size: .9rem;
   }
   
 }
