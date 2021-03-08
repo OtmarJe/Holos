@@ -885,13 +885,13 @@ canvas {
 
 .button-holos {
   position: relative;
-  background-color: #F96565;
+  background-color: #A0AA7A;
   width: auto;
   height: auto;
   padding: 2%;
   border-radius: 5px;
-  border-top: 1px solid black;
-  border-left: 1px solid black;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
   display: inline-block;
   text-align: center;
   text-decoration: none;
@@ -900,7 +900,7 @@ canvas {
 }
 
 .button-holos:hover {
-  background-color: #A0AA7A;
+  background-color: #DCAD37;
 }
 
 .button-impress {
