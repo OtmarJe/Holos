@@ -884,8 +884,8 @@ canvas {
 
 
 .button-holos {
-  position: relative;
-  background-color: #A0AA7A;
+  position: relative; 
+  background-color: #DCAD37;
   width: auto;
   height: auto;
   padding: 2%;
@@ -900,7 +900,7 @@ canvas {
 }
 
 .button-holos:hover {
-  background-color: #DCAD37;
+  background-color: #A0AA7A;
 }
 
 .button-impress {
