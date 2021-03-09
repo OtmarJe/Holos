@@ -28,6 +28,7 @@ paperScript = function() {
 				item.position += delta;
 		}
 	}
+
 }
 
 var a = document.createElement('script')
@@ -36,6 +37,7 @@ a.setAttribute('canvas', 'canvas');
 var src = paperScript.toString();
 a.appendChild(document.createTextNode(src.substring(src.indexOf('\n') + 1, src.lastIndexOf('\n'))));
 document.body.appendChild(a);
+
 
 
 /*
