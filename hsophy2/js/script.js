@@ -28,7 +28,12 @@ paperScript = function() {
 				item.position += delta;
 		}
 	}
-
+ 
+  function onResize(event) {
+    // Whenever the window is resized, the path recentered:
+    path.position = view.center;
+  }  
+  
 }
 
 var a = document.createElement('script')
@@ -39,8 +44,8 @@ a.appendChild(document.createTextNode(src.substring(src.indexOf('\n') + 1, src.l
 document.body.appendChild(a);
 
 
-
 /*
+
 
 function changeGrid() {
   var title = document.querySelector("#wrapGrid");
