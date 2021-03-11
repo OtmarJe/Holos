@@ -862,7 +862,7 @@ a:hover {
 
 /* End Styles aboutme */
 
-/* Start of To You */
+/* Start of keynote */
 
 canvas[resize] {
   position: relative;
@@ -911,8 +911,47 @@ canvas[resize] {
   color: black;
 }
 
-/* End of To You */
+/* End of keynote */
 
+
+
+/* Start of final say */
+
+
+.button2-holos {
+  position: relative; 
+  background-color: #A0AA7A;
+  width: 260px;
+  height: 260px;
+  border-radius: 130px;
+  padding: 2%;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  transition: .3s;
+  z-index: 5;
+}
+
+.button2-holos:hover {
+  background-color: #DCAD37;
+}
+
+.button2-impress {
+  font-family: 'Chivo', Verdana, sans-serif;
+  font-size: 1rem;
+  line-height: 140%;
+  color: white;
+}
+
+.button2-impress:hover {
+  color: black;
+}
+
+
+/* End of final say */
 
 /* Start of MEDIA Q's */
 
@@ -1350,6 +1389,19 @@ canvas[resize] {
     line-height: 135%;
   }
   
+  .button2-holos {
+    width: 240px;
+    height: 240px;
+    border-radius: 120px;
+    padding: 1.5%;
+  }
+  
+  .button2-impress {
+    font-size: .9rem;
+    line-height: 135%;
+  }
+  
+
 }
 
 @media (min-width: 520px) and (max-width: 832px) and (orientation: landscape ){
@@ -1641,6 +1693,25 @@ canvas[resize] {
   .button-impress {
     font-size: .9rem;
     line-height: 130%;
+  }
+  
+  .button2-holos {
+    width: 220px;
+    height: 220px;
+    border-radius: 110px;
+    padding: 1.5%;
+  }
+  
+  .button2-impress {
+    font-size: .9rem;
+    line-height: 130%;
+  }
+  
+  canvas[resize] {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
   }
   
 }
@@ -1938,13 +2009,24 @@ canvas[resize] {
     line-height: 130%;
   }
 
+  .button2-holos {
+    width: 220px;
+    height: 220px;
+    border-radius: 110px;
+    padding: 2%;
+  }
+  
+  .button2-impress {
+    font-size: .9rem;
+    line-height: 130%;
+  }
+  
   canvas[resize] {
     position: relative;
     width: 100%;
     height: 100%;
     z-index: 1;
   }
-  
   
 }
 
@@ -2239,6 +2321,25 @@ canvas[resize] {
     font-size: .9rem;
     line-height: 130%;
   }
+
+  .button2-holos {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    padding: 2%;
+  }
+  
+  .button2-impress {
+    font-size: .85rem;
+    line-height: 125%;
+  }
+  
+  canvas[resize] {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
   
 }
 
@@ -2530,6 +2631,25 @@ canvas[resize] {
   .button-impress {
     font-size: .8rem;
     line-height: 130%;
+  }
+
+  .button2-holos {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    padding: 1.5%;
+  }
+  
+  .button2-impress {
+    font-size: .8rem;
+    line-height: 125%;
+  }
+  
+  canvas[resize] {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
   }
   
 }
