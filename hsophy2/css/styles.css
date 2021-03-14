@@ -862,6 +862,78 @@ a:hover {
 
 /* End Styles aboutme */
 
+/* Start of About waves */
+
+.button2-holos {
+  position: relative; 
+  background-color: #A0AA7A;
+  width: 260px;
+  height: 260px;
+  border-radius: 130px;
+  padding: 2%;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  transition: .3s;
+  z-index: 5;
+}
+
+.button2-holos:hover {
+  background-color: #DCAD37;
+}
+
+.button2-impress {
+  font-family: 'Chivo', Verdana, sans-serif;
+  font-size: 1rem;
+  line-height: 140%;
+  color: white;
+}
+
+.button2-impress:hover {
+  color: black;
+}
+
+/* End of About waves */
+
+/* Start of About taste */
+
+.button3-holos {
+  position: relative; 
+  background-color: grey;
+  width: 230px;
+  height: auto;
+  border-radius: 45%;
+  padding: 11%;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  transition: .3s;
+  z-index: 5;
+}
+
+.button3-holos:hover {
+  background-color: #DCAD37;
+}
+
+.button3-impress {
+  font-family: 'Chivo', Verdana, sans-serif;
+  font-size: 1rem;
+  line-height: 140%;
+  color: white;
+}
+
+.button3-impress:hover {
+  color: black;
+}
+
+/* End of About taste */
+
 /* Start of keynote */
 
 canvas[resize] {
@@ -914,44 +986,6 @@ canvas[resize] {
 /* End of keynote */
 
 
-
-/* Start of final say */
-
-
-.button2-holos {
-  position: relative; 
-  background-color: #A0AA7A;
-  width: 260px;
-  height: 260px;
-  border-radius: 130px;
-  padding: 2%;
-  border-top: 2px solid black;
-  border-left: 2px solid black;
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-  text-decoration: none;
-  transition: .3s;
-  z-index: 5;
-}
-
-.button2-holos:hover {
-  background-color: #DCAD37;
-}
-
-.button2-impress {
-  font-family: 'Chivo', Verdana, sans-serif;
-  font-size: 1rem;
-  line-height: 140%;
-  color: white;
-}
-
-.button2-impress:hover {
-  color: black;
-}
-
-
-/* End of final say */
 
 /* Start of MEDIA Q's */
 
@@ -1400,8 +1434,18 @@ canvas[resize] {
     font-size: .9rem;
     line-height: 135%;
   }
-  
 
+  .button3-holos {
+    width: 230px;
+    border-radius: 45%;
+    padding: 9%;
+  }
+  
+  .button3-impress {
+    font-size: .9rem;
+    line-height: 135%;
+  }
+  
 }
 
 @media (min-width: 520px) and (max-width: 832px) and (orientation: landscape ){
@@ -1703,6 +1747,17 @@ canvas[resize] {
   }
   
   .button2-impress {
+    font-size: .9rem;
+    line-height: 130%;
+  }
+
+  .button3-holos {
+    width: 220px;
+    border-radius: 45%;
+    padding: 8%;
+  }
+  
+  .button3-impress {
     font-size: .9rem;
     line-height: 130%;
   }
@@ -2020,7 +2075,18 @@ canvas[resize] {
     font-size: .9rem;
     line-height: 130%;
   }
+ 
+  .button3-holos {
+    width: 220px;
+    border-radius: 45%;
+    padding: 10%;
+  }
   
+  .button3-impress {
+    font-size: .8rem;
+    line-height: 130%;
+  }
+
   canvas[resize] {
     position: relative;
     width: 100%;
