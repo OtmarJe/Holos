@@ -902,7 +902,7 @@ a:hover {
 
 .button3-holos {
   position: relative; 
-  background-color: #F96565;
+  background-color: whitesmoke;
   width: 230px;
   height: auto;
   border-radius: 45%;
@@ -925,7 +925,7 @@ a:hover {
   font-family: 'Chivo', Verdana, sans-serif;
   font-size: 1rem;
   line-height: 140%;
-  color: white;
+  color: grey;
 }
 
 .button3-impress:hover {
