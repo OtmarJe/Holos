@@ -89,13 +89,8 @@ paperScript = function() {
             path.position += event.delta;
         }
     }
- 
-      
-
 
 }
-
-
 
 var a = document.createElement('script')
 a.setAttribute('type', 'text/paperscript');

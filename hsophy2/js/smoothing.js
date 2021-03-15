@@ -50,12 +50,12 @@ paperScript = function() {
 			}
 		}
 		  
-}
+	}
 
 	// Reposition the path whenever the window is resized:
 	function onResize(event) {
 		initializePath();
-}
+	}
 
 }
 
