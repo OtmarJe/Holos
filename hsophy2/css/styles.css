@@ -2400,6 +2400,17 @@ canvas[resize] {
     line-height: 125%;
   }
   
+  .button3-holos {
+    width: 210px;
+    border-radius: 45%;
+    padding: 10%;
+  }
+  
+  .button3-impress {
+    font-size: .8rem;
+    line-height: 130%;
+  }
+
   canvas[resize] {
     position: relative;
     width: 100%;
@@ -2711,6 +2722,17 @@ canvas[resize] {
     line-height: 125%;
   }
   
+  .button3-holos {
+    width: 210px;
+    border-radius: 45%;
+    padding: 10%;
+  }
+  
+  .button3-impress {
+    font-size: .8rem;
+    line-height: 130%;
+  }
+
   canvas[resize] {
     position: relative;
     width: 100%;
