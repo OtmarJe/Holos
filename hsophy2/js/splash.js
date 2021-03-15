@@ -92,7 +92,7 @@ paperScript = function() {
 
 }
 
-var a = document.createElement('script')
+var a = document.createElement('script');
 a.setAttribute('type', 'text/paperscript');
 a.setAttribute('canvas', 'canvas');
 var src = paperScript.toString();
